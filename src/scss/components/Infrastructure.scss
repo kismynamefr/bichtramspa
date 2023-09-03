@@ -1,0 +1,28 @@
+.bg-infrastructure {
+    background-image: url(../../assets/Infrastructure/bg-infrastructure.png);
+    background-position: 50% 3%;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+
+.carousel-pair {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Điều chỉnh khoảng cách giữa cặp ảnh */
+}
+
+.btn-title {
+    width: 60%;
+    margin: 0 auto;
+    padding: 12px;
+    background: linear-gradient(131.24deg, #9F2AF5 0%, #422369 100%);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 999px;
+
+}
+
+.bg-li {
+    background-color: rgba(0,0,0,.04);
+}

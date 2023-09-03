@@ -1,8 +1,13 @@
 import './globals.scss'
 import type { Metadata } from 'next'
+import NavbarComponents from '~/components/Navbar'
 import { Inter } from 'next/font/google'
+import Footer from '~/components/Footer/Footer'
+import Header from '~/components/Header/Header'
+import NavigationMenuMobile from '~/components/NavigationMenuMobile'
 
 const inter = Inter({ subsets: ['latin'] })
+import '~/scss/main.scss'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +21,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body style={{height: '100vh'}} className={inter.className}>
+        <main className="flex min-h-screen flex-col items-center">
+          <Header />
+          <NavbarComponents />
+          {children}
+          <Footer/>
+          <NavigationMenuMobile/>
+        </main>
+      </body>
     </html>
   )
 }

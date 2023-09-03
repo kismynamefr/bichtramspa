@@ -1,0 +1,30 @@
+.icon-cosmetic {
+    &::before {
+        content: "";
+        background-image: url(../../assets/SprayCosmeticTattooing/icon-1.png);
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100px;
+        height: 100px;
+        z-index: 4;
+        top: 216px;
+        left: 24%;
+        bottom: 0;
+    }
+}
+.input-cosmetic {
+    &:focus-visible {
+        outline: none;
+    }
+    &:focus {
+        background-color: #fff;
+        box-shadow: 0 0 5px #ccc;
+        color: #333;
+        opacity: 1!important;
+        outline: 0;
+    }
+    &::placeholder {
+        color: #727070;
+    }
+}

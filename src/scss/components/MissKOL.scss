@@ -1,0 +1,17 @@
+.bg-kol {
+    background-image: url(../../assets/KOL/bg-hoa-hau.png);
+    background-position: 40% 0%;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+
+@media screen and (max-width: 800px){
+    .bg-kol {
+    background-image: url(../../assets/KOL/bg-mobi.png)!important;
+    }
+}
+
+.ava-kol {
+    width: 102px;
+    height: 130px;
+}

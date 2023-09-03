@@ -1,14 +1,24 @@
-import NavbarComponents from '~/components/Navbar'
 import CarouselComponent from '~/components/Carousel'
-import Header from '~/components/Header/Header'
+import OurServices from '~/components/OurServices'
+import Sale from '~/components/Sale'
+import MissKOL from '~/components/MissKOL'
+import AboutUs from '~/components/AboutUs'
+import Infrastructure from '~/components/Infrastructure'
+import News from '~/components/News'
+import Branch from '~/components/Branch'
 
 const Home: React.FunctionComponent = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center">
-      <Header />
-      <NavbarComponents />
+    <>
       <CarouselComponent />
-    </main>
+      <OurServices/>
+      <Sale/>
+      <MissKOL/>
+      <AboutUs/>
+      <Infrastructure/>
+      <News/>
+      <Branch/>
+    </>
   )
 }
 

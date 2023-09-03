@@ -1,0 +1,88 @@
+.bg-cosmetic {
+    background-image: url(../../assets/SprayCosmeticTattooing/banner-cosmetic.png);
+    background-position: 33% 0%;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    transition: filter .6s,opacity .6s,transform .6s,box-shadow .3s;
+}
+
+.bg-cosmetic2 {
+    background-image: url(../../assets/SprayCosmeticTattooing/bg-cosmetic2.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+
+.bg-cosmetic3 {
+    background-image: url(../../assets/SprayCosmeticTattooing/bg-cosmetic3.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+
+.bg-cosmetic4 {
+    background-image: url(../../assets/SprayCosmeticTattooing/bg-cosmetic4.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+
+.bg-cosmetic5 {
+    background-image: url(../../assets/SprayCosmeticTattooing/bg-cosmetic5.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+.bg-cosmetic6 {
+    background-image: url(../../assets/SprayCosmeticTattooing/bg-cosmetic6.png);
+    background-position: 43% 0%;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+
+.bg-boxCosmetic {
+    background: url(../../assets/SprayCosmeticTattooing/bg-box.png) center center no-repeat;
+}
+
+.bg-boxImg {
+    background: url(../../assets/SprayCosmeticTattooing/bg-box-img.png) center center no-repeat;
+    background-size: cover;
+    height: 580px;
+}
+
+.text-cosmetic {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-ServiceMobile {
+    background: linear-gradient(98deg,#9F2AF5 -43.7%,#3f2068 67.02%);
+}
+ 
+.itemCosmetic {
+    border-radius: 20px;
+    display: block;
+    position: relative;
+    margin-right: 14px;
+    padding: 0;
+    width: 20%; 
+    max-width: 25%; 
+    max-height: 600px;
+    height: 440px;
+    background: center center no-repeat;
+    background-size: cover;
+    flex: 1;
+    transition: all 0.3s ease-in-out;
+    background-position: 43% 42%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+  
+    &:hover {
+      filter: brightness(100%);
+      width: 30% !important;
+      max-width: 35% !important;
+    }
+  }
+  

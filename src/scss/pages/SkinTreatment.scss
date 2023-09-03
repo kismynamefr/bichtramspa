@@ -1,0 +1,85 @@
+.bg-SkinTreatment-1 {
+  background-image: url(../../assets/SkinTreatment/bg-SkinTreatment-1.png);
+  background-position: 46% 0%;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  transition: filter .6s,opacity .6s,transform .6s,box-shadow .3s;
+}
+
+.bg-SkinTreatment-2 {
+  background-image: url(../../assets/SkinTreatment/bg-SkinTreatment-2.png);
+  background-position: 46% 0%;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  transition: filter .6s,opacity .6s,transform .6s,box-shadow .3s;
+}
+
+
+.bg-SkinTreatment-3 {
+  background-image: url(../../assets/SkinTreatment/bg-SkinTreatment-3.png);
+  background-position: 46% 0%;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  transition: filter .6s,opacity .6s,transform .6s,box-shadow .3s;
+}
+
+.bg-SkinTreatment-4 {
+  background-image: url(../../assets/SkinTreatment/bg-SkinTreatment-4.png);
+  background-position: 46% 0%;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  transition: filter .6s,opacity .6s,transform .6s,box-shadow .3s;
+}
+
+.bg-SkinTreatment-5 {
+  background-image: url(../../assets/SkinTreatment/bg-SkinTreatment-5.png);
+  background-position: 46% 0%;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  transition: filter .6s,opacity .6s,transform .6s,box-shadow .3s;
+}
+
+.bg-SkinTreatment-6 {
+  background-image: url(../../assets/SkinTreatment/bg-SkinTreatment-6.png);
+  background-position: 51% 21%;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  transition: filter .6s,opacity .6s,transform .6s,box-shadow .3s;
+}
+
+.bg-Advantage {
+    &::before {
+      content: "";
+      background: url(../../assets/SkinTreatment/bg-SkinTreatment-7.png);
+      position: absolute;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 600px;
+      height: 500px;
+      z-index: 10;
+      margin-top: -36px;
+    }
+}
+
+.bg-content-OutstandingServices {
+  background-color: rgba(0, 0, 0, 0.448);
+  background: linear-gradient(133.58deg, #9f2af5 -43.7%, #422369de 67.02%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 100%; 
+  bottom: 0;
+  right: 0;
+  opacity: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5%;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.boxImage:hover .bg-content-OutstandingServices {
+  top: 0;
+}
+  

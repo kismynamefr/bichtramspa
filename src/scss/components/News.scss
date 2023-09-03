@@ -1,0 +1,20 @@
+.custom-btn-news {
+    background: linear-gradient(180deg,#9F2AF5 25.53%,#422369 82.6%);
+    box-shadow: 0 4px 4px rgba(0,0,0,.25);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    animation: lickme 0.7s infinite cubic-bezier(.66,0,0,1);
+    padding: 8px 12px;
+
+    @keyframes lickme {
+    0% {
+        box-shadow: 0 0 1px #422369
+    }
+
+    100% {
+        box-shadow: 0 0 0 15px #cfb06f0f
+    }
+}
+}
+

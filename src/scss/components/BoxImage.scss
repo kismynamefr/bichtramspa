@@ -1,0 +1,33 @@
+.bg-boxImg {
+    background: url(../../assets/Cosmetic/bg-box-img.png) center center no-repeat;
+    background-size: cover;
+    height: 580px;
+}
+
+.itemCosmetic {
+    border-radius: 20px;
+    display: block;
+    position: relative;
+    margin-right: 14px;
+    padding: 0;
+    width: 20%; 
+    max-width: 25%; 
+    max-height: 600px;
+    height: 440px;
+    background: center center no-repeat;
+    background-size: cover;
+    flex: 1;
+    transition: all 0.3s ease-in-out;
+    background-position: 43% 42%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+  
+    &:hover {
+      filter: brightness(100%);
+      width: 30% !important;
+      max-width: 35% !important;
+    }
+  }
+  
