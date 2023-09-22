@@ -64,7 +64,7 @@ const CustomerPictures = () => {
       <div className="sm:bg-WhiteBath-4 bg-WhiteBath-4-MB w-full">
         <div className="py-5 text-center max-w-[1400px] m-auto">
           <h2 className='text-white text-5xl font-bold pb-4'>HƠN 1 TRIỆU KHÁCH HÀNG</h2>
-          <h1 className='bg-gradientText text-cosmetic font-bold text-3xl pb-4'>TẮM TRẮNG THÀNH CÔNG TẠI ...</h1>
+          <h1 className='bg-gradientText text-cosmetic font-bold text-3xl pb-4'>TẮM TRẮNG THÀNH CÔNG TẠI BÍCH TRÂM</h1>
           <div className="flex justify-center sm:px-0 px-12">
             <Image src={Item13} width={520} height={239} alt='Item 13 Spa'/>
           </div>

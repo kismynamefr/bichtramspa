@@ -34,7 +34,7 @@ const serviceItem: ServiceItem[] = [
         image: Item3,
         alt: "Item Spa",
         title: 'GIẢM MỠ LƯNG',
-        description: 'Giảm mỡ lưng bằng công nghệ giảm béo độc quyền chỉ có tại Linh Anh, thấy được kết quả ngay lần đầu thực hiện.',
+        description: 'Giảm mỡ lưng bằng công nghệ giảm béo độc quyền chỉ có tại Bích Trâm, thấy được kết quả ngay lần đầu thực hiện.',
 
     },
     {
@@ -67,7 +67,7 @@ const Service = () => {
           <div className="w-full max-w-[700px] m-auto">
               <h2 className='text-white text-3xl font-bold pb-4'>CÁC DỊCH VỤ</h2>
               <h1 className='bg-gradientText text-cosmetic font-bold sm:text-5xl text-4xl pb-4'>GIẢM MỠ TOÀN THÂN</h1>
-              <h2 className='text-white text-3xl font-bold pb-4'>CÔNG NGHỆ CAO TẠI LINH ANH</h2>
+              <h2 className='text-white text-3xl font-bold pb-4'>CÔNG NGHỆ CAO TẠI BÍCH TRÂM</h2>
           </div>
           <div className="grid-cols-3 pt-10 gap-5 sm:grid block">
             {serviceItem.map((item, index) => (

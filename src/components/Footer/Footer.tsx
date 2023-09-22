@@ -18,7 +18,7 @@ const Footer: React.FunctionComponent = () => {
                   </Link>
                 </div>
                 <div className="p-3 pb-5 relative w-full text-sm ">
-                  <p>Với sứ mệnh lan tỏa vẻ đẹp Việt, Linh Anh luôn không ngừng hoàn thiện và cải tiến từng ngày để mang đến cho khách hàng những trải nghiệm dịch vụ tuyệt vời nhất.</p>
+                  <p>Với sứ mệnh lan tỏa vẻ đẹp Việt, Bích Trâm luôn không ngừng hoàn thiện và cải tiến từng ngày để mang đến cho khách hàng những trải nghiệm dịch vụ tuyệt vời nhất.</p>
                 </div>
               </div>
             </div>

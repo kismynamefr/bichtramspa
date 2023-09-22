@@ -17,10 +17,10 @@ interface NewsItem {
 const newsData: NewsItem[] = [
     {
         id: 1,
-        title: 'Chương trình khuyến mãi tại TMV Quốc tế Linh Anh',
+        title: 'Chương trình khuyến mãi tại TMV Quốc tế Bích Trâm',
         imageSrc: Item1,
         imageAlt: 'Chương trình khuyến mãi',
-        description: 'Sức nóng mùa hè chính thức đổ bộ tại hệ thống TMV Quốc tế Linh Anh. Cùng hòa chung không khí rộn ràng, Linh Anh mang nhiều ưu đãi hấp dẫn với các dịch vụ làm đẹp cực hot….',
+        description: 'Sức nóng mùa hè chính thức đổ bộ tại hệ thống TMV Quốc tế Bích Trâm. Cùng hòa chung không khí rộn ràng, Bích Trâm mang nhiều ưu đãi hấp dẫn với các dịch vụ làm đẹp cực hot….',
     },
     {
         id: 2,

@@ -72,7 +72,7 @@ const Advantage = () => {
         <div className="w-full max-w-[1060px] m-auto text-center pt-20 sm:block hidden">
           <h2 className='text-white sm:text-4xl text-2xl font-medium pb-4'>TẠI SAO NÊN CHỌN</h2>
           <h1 className='bg-gradientText text-cosmetic font-bold sm:text-6xl text-4xl pb-4'>PHUN XĂM THẨM MỸ</h1>
-          <h2 className='text-white sm:text-4xl text-2xl font-medium pb-4'>TẠI ... ?</h2>
+          <h2 className='text-white sm:text-4xl text-2xl font-medium pb-4'>TẠI BÍCH TRÂM ?</h2>
         </div>
       </div>
   )

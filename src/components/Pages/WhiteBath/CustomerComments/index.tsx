@@ -41,7 +41,7 @@ const CustomerComments = () => {
           <div className="sm:w-1/3 w-full sm:pl-4 pl-0 sm:text-start text-center sm:px-0 px-3 sm:pb-0 pb-5">
             <h2 className='font-bold sm:text-5xl text-4xl text-white pb-4'>KHÁCH HÀNG</h2>
             <h2 className='font-bold sm:text-5xl text-4xl text-white pb-4'>REVIEW</h2>
-            <h2 className='bg-gradientText font-bold sm:text-4xl text-xl text-cosmetic p-2'>HIỆU QUẢ TẮM TRẮNG TẠI ...</h2>
+            <h2 className='bg-gradientText font-bold sm:text-4xl text-xl text-cosmetic p-2'>HIỆU QUẢ TẮM TRẮNG TẠI BÍCH TRÂM</h2>
           </div>
           <div className="sm:w-2/3 w-full sm:ml-10 ml-0 sm:block hidden">
             <Image src={BannerCustomerComments} width={903} height={663} alt='Banner Spa'/>

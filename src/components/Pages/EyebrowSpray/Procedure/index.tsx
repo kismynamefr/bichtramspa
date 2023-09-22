@@ -61,7 +61,7 @@ const Procedure = () => {
       <div className="bg-EyebrowSpray5 w-full">
         <div className="py-5 text-center max-w-[1400px] m-auto">
           <h1 className='bg-gradientText text-cosmetic font-bold text-5xl pb-4'>QUY TRÌNH PHUN XĂM CHÂN MÀY</h1>
-          <h2 className='text-white text-3xl font-bold pb-4'>TẠI ...</h2>
+          <h2 className='text-white text-3xl font-bold pb-4'>TẠI BÍCH TRÂM</h2>
         </div>
         <div className="grid grid-cols-3 gap-5 mt-5 max-w-[1400px] m-auto">
           {topItems.map((item, index) => (

@@ -33,7 +33,7 @@ const CustomerComments = () => {
         <div className="sm:flex block w-full max-w-[1400px] m-auto items-center py-10">
           <div className="sm:w-1/3 w-full sm:pl-4 pl-0 sm:text-start text-center sm:px-0 px-3">
             <h2 className='bg-gradientText font-bold sm:text-4xl text-2xl text-cosmetic p-2'>FEEDBACK</h2>
-            <h2 className='font-bold sm:text-5xl text-2xl text-white pb-4'>KHÁCH HÀNG SAU LIỆU TRÌNH TRIỆT LÔNG TẠI LINH ANH</h2>
+            <h2 className='font-bold sm:text-5xl text-2xl text-white pb-4'>KHÁCH HÀNG SAU LIỆU TRÌNH TRIỆT LÔNG TẠI BÍCH TRÂM</h2>
           </div>
           <div className="sm:w-2/3 w-full sm:ml-10 ml-0  sm:block hidden">
             <Image src={BannerCustomerComments} width={903} height={663} alt='Banner Spa'/>

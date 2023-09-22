@@ -35,7 +35,7 @@ const Promotions = () => {
         <div className="sm:flex block justify-center items-center gap-10 sm:text-start text-center">
             <div className="">
                 <p className='bg-gradientText text-cosmetic font-bold text-4xl max-w-[400px]'>CÁC CHƯƠNG TRÌNH KHUYẾN MÃI</p>
-                <p className='text-white font-medium text-4xl'>HIỆN CÓ TẠI LINH ANH</p>
+                <p className='text-white font-medium text-4xl'>HIỆN CÓ TẠI BÍCH TRÂM</p>
             </div>
             <div className="sm:block hidden">
                 <Carousel

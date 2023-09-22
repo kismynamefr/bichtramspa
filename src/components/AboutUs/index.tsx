@@ -53,7 +53,7 @@ const AboutUs: React.FunctionComponent = () => {
             <div className="flex justify-center items-center p-10">
                 <h1 className='text-mainSpaColor font-bold text-2xl text-center'>HỆ THỐNG TRANG THIẾT BỊ HIỆN ĐẠI TÂN TIẾN</h1>
             </div>
-            <p className='text-base text-justify sm:p-0 px-8 '>Tiên phong trong lĩnh vực thẩm mỹ công nghệ cao, Linh Anh liên tục đầu tư hệ thống 
+            <p className='text-base text-justify sm:p-0 px-8 '>Tiên phong trong lĩnh vực thẩm mỹ công nghệ cao, Bích Trâm liên tục đầu tư hệ thống 
             trang thiết bị, máy móc cao cấp được nhập khẩu, chuyên giao trực tiếp từ các tập đoàn làm đẹp hàng đầu Hoa 
             Kỳ và châu Âu. Tất cả đều đáp ứng tiêu chuẩn khắt khe về chất lượng, hiệu quả và độ an toàn của những tổ chức 
             uy tín thế giới như FDA, KFDA và CE.</p>

@@ -46,7 +46,7 @@ const Effective = () => {
         <div className="max-w-[1400px] m-auto py-5">
             <div className="text-center">
                 <h1 className='bg-gradientText text-cosmetic font-bold text-5xl pb-4'>HIỆU QUẢ</h1>
-                <h2 className='text-white text-3xl font-bold pb-4'>PHUN MÀY HIỆU ỨNG BÚT CHÌ TẠI LINH ANH</h2>
+                <h2 className='text-white text-3xl font-bold pb-4'>PHUN MÀY HIỆU ỨNG BÚT CHÌ TẠI BÍCH TRÂM</h2>
             </div>
             <div className="flex gap-5">
             <Carousel

@@ -56,7 +56,7 @@ const Procedure = () => {
       <div className="bg-SkinTreatment-3 w-full">
         <div className="py-10 text-center max-w-[1400px] m-auto">
           <h1 className='text-white font-bold sm:text-5xl text-4xl pb-4'>QUY TRÌNH PHUN XĂM TRIỆT LÔNG VĨNH VIỄN</h1>
-          <h2 className='bg-gradientText text-cosmetic text-3xl font-bold pb-4'>TẠI ...</h2>
+          <h2 className='bg-gradientText text-cosmetic text-3xl font-bold pb-4'>TẠI BÍCH TRÂM</h2>
         </div>
         <div className="sm:block hidden">
           <div className="grid grid-cols-3 gap-5 mt-5 max-w-[1400px] m-auto">

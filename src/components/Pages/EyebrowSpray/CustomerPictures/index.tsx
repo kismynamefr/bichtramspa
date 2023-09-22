@@ -21,25 +21,25 @@ const popularityItem: PopularityItem[] = [
         image: Item13,
         alt: "Item Spa",
         title: "CHỊ NGỌC LINH - 29 TUỔI",
-        description: "Wow, không tin được là chân mày bị phun hỏng trước kia đã được các master bên Linh Anh chỉnh sửa ngoạn mục vậy luôn. Like mạnh nha!",
+        description: "Wow, không tin được là chân mày bị phun hỏng trước kia đã được các master bên Bích Trâm chỉnh sửa ngoạn mục vậy luôn. Like mạnh nha!",
     },
     {
         image: Item14,
         alt: "Item Spa",
         title: "CHỊ HỒNG GẤM - 31 TUỔI",
-        description: "Từ ngày phun chân mày phong thủy bên Linh Anh về, công việc của chị thông thuận lắm, cảm ơn Linh Anh nhé!",
+        description: "Từ ngày phun chân mày phong thủy bên Bích Trâm về, công việc của chị thông thuận lắm, cảm ơn Bích Trâm nhé!",
     },
     {
         image: Item15,
         alt: "Item Spa",
         title: "ANH HẢI ĐĂNG - 35 TUỔI",
-        description: "Uớc biết Linh Anh sớm hơn để qua phun mày phong thủy, chuyện kinh doanh của Đăng cải thiện rất nhiều, tuyệt vời.",
+        description: "Uớc biết Bích Trâm sớm hơn để qua phun mày phong thủy, chuyện kinh doanh của Đăng cải thiện rất nhiều, tuyệt vời.",
     },
     {
         image: Item16,
         alt: "Item Spa",
         title: "CHỊ HỒNG HẠNH - 40 TUỔI",
-        description: "Chân mày chị bị trổ đỏ nhìn sợ luôn, may mắn được bạn giới thiệu qua Linh Anh phun lại nên giờ đi đâu ai cũng khen",
+        description: "Chân mày chị bị trổ đỏ nhìn sợ luôn, may mắn được bạn giới thiệu qua Bích Trâm phun lại nên giờ đi đâu ai cũng khen",
     },
 ]
 
@@ -50,7 +50,7 @@ const CustomerPictures = () => {
             <div className="w-full max-w-[700px] m-auto">
                 <h1 className='bg-gradientText text-cosmetic font-bold text-5xl pb-4'>KHÁCH HÀNG ĐÃ NÓI GÌ</h1>
                 <h2 className='text-white text-4xl font-bold pb-4'>SAU KHI PHUN XĂM CHÂN MÀY</h2>
-                <h2 className='text-white text-3xl font-bold pb-4'>TẠI LINH ANH</h2>
+                <h2 className='text-white text-3xl font-bold pb-4'>TẠI BÍCH TRÂM</h2>
             </div>
             <div className="flex flex-wrap justify-center">
               {popularityItem.map((item, index) => (

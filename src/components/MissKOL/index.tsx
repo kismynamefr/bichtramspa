@@ -31,37 +31,37 @@ const kolData = [
         id: 1,
         missImage: MissThuyTien,
         title: 'ĐẠI SỨ THƯƠNG HIỆU - HOA HẬU THÙY TIÊN',
-        content: '“Trở thành Đại sứ thương hiệu của Hệ thống TMQT Linh Anh, Tiên mong muốn lan tỏa thông điệp tích cực về xu hướng làm đẹp hiện đại, an toàn, không xâm lấn. Không cần bắt chước bất cứ khuôn mẫu nào, mỗi phụ nữ hãy trở thành phiên bản hoàn hảo nhất của chính mình”',
+        content: '“Trở thành Đại sứ thương hiệu của Hệ thống TMQT Bích Trâm, Tiên mong muốn lan tỏa thông điệp tích cực về xu hướng làm đẹp hiện đại, an toàn, không xâm lấn. Không cần bắt chước bất cứ khuôn mẫu nào, mỗi phụ nữ hãy trở thành phiên bản hoàn hảo nhất của chính mình”',
     },
     {
         id: 2,
         missImage: MissHuyenMi,
         title: 'Á HẬU HUYỀN MY',
-        content: '“Á HẬU HUYỀN MY“Đến với Linh Anh, My không chỉ được trải nghiệm những dịch vụ làm đẹp đẳng cấp nhất mà còn cảm nhận được sự chuyên nghiệp, hết lòng tận tâm của đội ngũ bác sĩ, chuyên viên tại đây”',
+        content: '“Á HẬU HUYỀN MY“Đến với Bích Trâm, My không chỉ được trải nghiệm những dịch vụ làm đẹp đẳng cấp nhất mà còn cảm nhận được sự chuyên nghiệp, hết lòng tận tâm của đội ngũ bác sĩ, chuyên viên tại đây”',
     },
     {
         id: 3,
         missImage: MissMyLinh,
         title: 'HOA HẬU ĐỖ MỸ LINH',
-        content: '"Linh Anh hội tụ tất cả những gì mà một tín đồ yêu làm đẹp như Linh không thể bỏ lỡ. Từ không gian sang trọng, công nghệ làm đẹp hiện đại nhất cho đến quy trình chăm sóc khách hàng"',
+        content: '"Bích Trâm hội tụ tất cả những gì mà một tín đồ yêu làm đẹp như Linh không thể bỏ lỡ. Từ không gian sang trọng, công nghệ làm đẹp hiện đại nhất cho đến quy trình chăm sóc khách hàng"',
     },
     {
         id: 4,
         missImage: ActorKhaNhu,
         title: 'DIỄN VIÊN KHẢ NHƯ',
-        content: '“Cảm ơn Linh Anh đã trở thành người bạn đồng hành thân thiết giúp Như hoàn thiện sắc vóc, thêm tự tin mỗi lần xuất hiện trước khán giả, chinh phục những thành công mới và tận hưởng cuộc sống theo cách riêng”',
+        content: '“Cảm ơn Bích Trâm đã trở thành người bạn đồng hành thân thiết giúp Như hoàn thiện sắc vóc, thêm tự tin mỗi lần xuất hiện trước khán giả, chinh phục những thành công mới và tận hưởng cuộc sống theo cách riêng”',
     },
     {
         id: 5,
         missImage: NSNDThanhThuy,
         title: 'NSND THANH THỦY',
-        content: '“Mỗi lần ghé thăm Linh Anh, tôi thấy mình như trở lại thanh xuân một lần nữa, da dẻ tươi trẻ và vóc dáng thon gọn hơn. Nhờ có Linh Anh mà tôi tự tin tiếp tục theo đuổi đam mê diễn xuất và cống hiến cho khán giả”',
+        content: '“Mỗi lần ghé thăm Bích Trâm, tôi thấy mình như trở lại thanh xuân một lần nữa, da dẻ tươi trẻ và vóc dáng thon gọn hơn. Nhờ có Bích Trâm mà tôi tự tin tiếp tục theo đuổi đam mê diễn xuất và cống hiến cho khán giả”',
     },
     {
         id: 6,
         missImage: NSNDKimXuan,
         title: 'NSND KIM XUÂN',
-        content: '“Tin tưởng Linh Anh nhiều năm qua, tôi vừa có ngoại hình đẹp, vừa nâng cao sức khỏe, từ đó công việc lẫn cuộc sống cũng thăng hoa hơn”',
+        content: '“Tin tưởng Bích Trâm nhiều năm qua, tôi vừa có ngoại hình đẹp, vừa nâng cao sức khỏe, từ đó công việc lẫn cuộc sống cũng thăng hoa hơn”',
     }
 ]
 

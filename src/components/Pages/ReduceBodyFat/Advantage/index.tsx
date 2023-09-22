@@ -25,7 +25,7 @@ const Advantage = () => {
               <div className="max-w-[650px] sm:text-start text-center">
                 <h2 className='text-white text-4xl font-bold pb-4'>ĐỘI NGŨ Y BÁC SĨ THỰC HIỆN GIẢM MỠ TOÀN THÂN</h2>
                 <h1 className='bg-gradientText text-cosmetic font-bold text-5xl pb-4'>GIÀU KINH NGHIỆM</h1>
-                <h2 className='text-white text-base font-bold pb-4'>Tại Thẩm mỹ Quốc tế Linh Anh, đội ngũ bác sĩ điều trị cho các ca thừa cân, giảm mỡ toàn thân đều có hơn 10 năm kinh nghiệm. Điều trị thành công hơn 1000+ ca giảm béo.</h2>
+                <h2 className='text-white text-base font-bold pb-4'>Tại Thẩm mỹ Quốc tế Bích Trâm, đội ngũ bác sĩ điều trị cho các ca thừa cân, giảm mỡ toàn thân đều có hơn 10 năm kinh nghiệm. Điều trị thành công hơn 1000+ ca giảm béo.</h2>
               </div>
               {/*  */}
               <div className="flex text-center gap-4">

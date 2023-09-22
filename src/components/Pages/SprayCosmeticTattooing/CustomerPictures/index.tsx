@@ -51,7 +51,7 @@ const CustomerPictures = () => {
           <h2 className='text-white text-4xl font-medium pb-4'>HÌNH ẢNH</h2>
           <h1 className='bg-gradientText text-cosmetic font-bold sm:text-6xl text-4xl pb-4'>KHÁCH HÀNG PHUN</h1>
           <h1 className='bg-gradientText text-cosmetic font-bold sm:text-6xl text-4xl pb-4'>XĂM THÀNH CÔNG</h1>
-          <h2 className='text-white sm:text-4xl text-2xl font-medium pb-4'>TẠI THẨM MỸ VIỆN ...</h2>
+          <h2 className='text-white sm:text-4xl text-2xl font-medium pb-4'>TẠI THẨM MỸ VIỆN BÍCH TRÂM</h2>
         </div>
         <div className="max-w-[1300px] m-auto sm:block hidden">
           <div className="flex flex-row flex-wrap justify-center gap-14">

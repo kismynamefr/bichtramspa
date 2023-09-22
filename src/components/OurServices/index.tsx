@@ -52,7 +52,7 @@ const OurServices = () => {
     <div className="w-full bg-our-service -mt-16 pb-10 z-10">
       <div className="mt-10">
         <div className="flex justify-center items-center p-10">
-          <h1 className='text-mainSpaColor font-bold sm:text-3xl text-2xl custom-gradient-text'>DỊCH VỤ TẠI ...</h1>
+          <h1 className='text-mainSpaColor font-bold sm:text-3xl text-2xl custom-gradient-text'>DỊCH VỤ TẠI BÍCH TRÂM</h1>
         </div>
         <div className='flex flex-row flex-wrap max-w-1300 w-full mx-auto justify-center'>
         {serviceItems.map((service) => (

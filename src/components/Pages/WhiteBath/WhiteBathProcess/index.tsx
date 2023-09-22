@@ -104,7 +104,7 @@ const WhiteBathProcess = () => {
     <div className="bg-BannerPencil-5 w-full">
         <div className="py-5 text-center max-w-[1400px] m-auto">
             <h2 className='text-white sm:text-5xl text-3xl font-bold pb-4'>QUY TRÌNH TẮM TRẮNG VĨNH VIỄN</h2>
-            <h1 className='bg-gradientText text-cosmetic font-bold sm:text-3xl text-2xl pb-4'>TẠI ... </h1>
+            <h1 className='bg-gradientText text-cosmetic font-bold sm:text-3xl text-2xl pb-4'>TẠI BÍCH TRÂM</h1>
         </div>
         <div className="grid-cols-4 gap-5 mt-5 max-w-[1400px] m-auto items-center sm:grid hidden">
             {procedureItem.map((item, index) => (

@@ -16,7 +16,7 @@ const Advantage = () => {
   return (
     <div className="bg-SkinTreatment-6 sm:h-[740px] h-auto w-full">
       <div className="w-full max-w-[700px] py-10 m-auto text-center">
-        <h2 className='text-white text-4xl font-bold pb-4'>THẨM MỸ QUỐC TẾ LINH ANH</h2>
+        <h2 className='text-white text-4xl font-bold pb-4'>THẨM MỸ QUỐC TẾ BÍCH TRÂM</h2>
         <h2 className='text-white text-4xl font-bold pb-4'>THẨM MỸ CHUẨN 5 SAO</h2>
       </div>
       <div className="sm:flex block w-full max-w-[1400px] m-auto items-center">

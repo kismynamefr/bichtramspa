@@ -70,7 +70,7 @@ const Procedure = () => {
         <div className="py-5 text-center max-w-[1400px] m-auto">
             <h2 className='text-white text-5xl font-bold pb-4'>QUY TRÌNH PHUN MÀY </h2>
             <h2 className='text-white text-5xl font-bold pb-4'>HIỆU ỨNG BÚT CHÌ</h2>
-            <h1 className='bg-gradientText text-cosmetic font-bold text-3xl pb-4'>TẠI ... </h1>
+            <h1 className='bg-gradientText text-cosmetic font-bold text-3xl pb-4'>TẠI BÍCH TRÂM </h1>
         </div>
         <div className="grid grid-cols-3 gap-5 mt-5 max-w-[1400px] m-auto">
             {procedureItem.map((item, index) => (
