@@ -30,7 +30,7 @@ function Question() {
   ];
 
   return (
-    <div className='bg-white text-mainSpaColor w-full py-10 max-w-[1400px] m-auto'>
+    <div className='bg-white text-titlemainSpaColor w-full py-10 max-w-[1400px] m-auto'>
       <div className="sm:text-3xl text-2xl font-bold text-center">
         <h1>MỘT SỐ CÂU HỎI THƯỜNG GẶP KHI</h1>
         <h1>THỰC HIỆN PHUN XĂM THẨM MỸ</h1>
@@ -39,8 +39,8 @@ function Question() {
         {questions.map((question, index) => (
           <div key={index}>
             <Accordion open={openAccordion === index} icon={<FiChevronDown />} onClick={() => handleAccordionClick(index)}>
-              <AccordionHeader className="text-mainSpaColor font-bold">{question}</AccordionHeader>
-              <AccordionBody className="text-mainSpaColor font-bold pl-4 text-base">
+              <AccordionHeader className="text-titlemainSpaColor hover:text-green-900 font-bold">{question}</AccordionHeader>
+              <AccordionBody className="text-titlemainSpaColor font-bold pl-4 text-base">
                 {answer[index]}
               </AccordionBody>
             </Accordion>

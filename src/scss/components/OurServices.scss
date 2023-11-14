@@ -14,13 +14,13 @@
 
 
 .custom-gradient-text {
-    background: -webkit-linear-gradient(131.24deg, #9F2AF5 0%, #422369 100%);
+    background: -webkit-linear-gradient(131.24deg, #2af53e 0%, #2f6923 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .custom-btn-contact {
-    background: linear-gradient(141.82deg,#9F2AF5 -66.97%,#422369 42.57%);
+    background: linear-gradient(141.82deg,#2af53e -66.97%,#2f6923 42.57%);
     box-shadow: 0 4px 4px rgba(0,0,0,.25);
     text-transform: none!important;
 
@@ -40,8 +40,8 @@
     border: 2px solid;
 
     &:hover {
-        border-color: #422369;
-        background-color: #422369;
+        border-color: #2c6923;
+        background-color: #2c6923;
         color: #fff;
     }
 }

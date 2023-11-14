@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FiX, FiChevronDown } from 'react-icons/fi';
@@ -74,6 +74,8 @@ const navItems: NavItem[] = [
 
 const MenuMobile: React.FC<MenuMobileProps> = ({ onClose }) => {
   const [selectedDropdownId, setSelectedDropdownId] = useState<number | null>(null);
+  const menuWrapperRef = useRef<HTMLDivElement | null>(null);
+
 
   const handleDropdownClick = (id: number) => {
     if (selectedDropdownId === id) {
@@ -82,17 +84,44 @@ const MenuMobile: React.FC<MenuMobileProps> = ({ onClose }) => {
       setSelectedDropdownId(id);
     }
   };
+  
+  useEffect(() => {
+    const handleOutsideClick = (event: MouseEvent) => {
+      if (menuWrapperRef.current && !menuWrapperRef.current.contains(event.target as Node)) {
+        onClose(); 
+      }
+    };
+
+    const menuItems = document.querySelectorAll('.menu-item');
+    menuItems.forEach((item) => {
+      item.addEventListener('click', (event) => {
+        event.stopPropagation();
+      });
+    });
+
+    document.addEventListener('click', handleOutsideClick);
+
+    return () => {
+      document.removeEventListener('click', handleOutsideClick);
+      menuItems.forEach((item) => {
+        item.removeEventListener('click', (event) => {
+          event.stopPropagation();
+        });
+      });
+    };
+  }, [onClose]);
+
 
   return (
     <>
       <div className="fixed top-0 left-0 right-0 bottom-0 w-full h-screen bg-z overflow-hidden z-[110]">
-        <div className="flex justify-end mb-6 py-3 px-5 relative z-[120]">
+        <div className="flex justify-end mb-6 py-3 px-5 relative z-[120]" >
           <button onClick={onClose} className="text-2xl text-white">
             <FiX />
           </button>
         </div>
       </div>ư
-      <div className="fixed top-0 left-0 w-4/5 h-screen bg-menu-mobi opacity-100 overflow-y-auto z-[120] ">
+      <div className="fixed top-0 left-0 w-4/5 h-screen bg-menu-mobi opacity-100 overflow-y-auto z-[120]" ref={menuWrapperRef} >
         <div className="flex justify-center w-full py-8">
           <Image src={Logo} alt='Logo' className='w-[200px]'/>
         </div>
@@ -100,11 +129,10 @@ const MenuMobile: React.FC<MenuMobileProps> = ({ onClose }) => {
           <div key={navItem.id} className={`border-t-[1px] !border-t-borderMenuMb border-0 p-4`} >
             <Link href={navItem.link}>
               <div className="flex items-center justify-between">
-                <h3 className="text-base font-semibold text-[#eeee]">{navItem.title}</h3>
+                <h3 className="text-base font-bold">{navItem.title}</h3>
                 {navItem.dropdownItems && (
                       <button
                     onClick={() => handleDropdownClick(navItem.id)}
-                    className="text-[#eeee]"
                   >
                     <FiChevronDown
                       className={`h-4 w-4 transition-transform ${
@@ -122,12 +150,12 @@ const MenuMobile: React.FC<MenuMobileProps> = ({ onClose }) => {
                     <Link className="border-0 border-l-2 pl-6 py-[5px] font-bold text-base !border-l-titleListMb" href={navItem.link}>
                       {dropdownItem.title}<br />
                     </Link>
-                    <span className='pl-8'>{dropdownItem.item1}<br /></span>
-                    <span className='pl-8'>{dropdownItem.item2 && <>{dropdownItem.item2}<br /></>}</span>
-                    <span className='pl-8'>{dropdownItem.item3 && <>{dropdownItem.item3}<br /></>}</span>
-                    <span className='pl-8'>{dropdownItem.item4 && <>{dropdownItem.item4}<br /></>}</span>
-                    <span className='pl-8'>{dropdownItem.item5 && <>{dropdownItem.item5}<br /></>}</span>
-                    <span className='pl-8'>{dropdownItem.item6 && <>{dropdownItem.item6}<br /></>}</span>
+                    <span className='pl-8 font-medium cursor-pointer'>{dropdownItem.item1}<br /></span>
+                    <span className='pl-8 font-medium cursor-pointer'>{dropdownItem.item2 && <>{dropdownItem.item2}<br /></>}</span>
+                    <span className='pl-8 font-medium cursor-pointer'>{dropdownItem.item3 && <>{dropdownItem.item3}<br /></>}</span>
+                    <span className='pl-8 font-medium cursor-pointer'>{dropdownItem.item4 && <>{dropdownItem.item4}<br /></>}</span>
+                    <span className='pl-8 font-medium cursor-pointer'>{dropdownItem.item5 && <>{dropdownItem.item5}<br /></>}</span>
+                    <span className='pl-8 font-medium cursor-pointer'>{dropdownItem.item6 && <>{dropdownItem.item6}<br /></>}</span>
                     
                   </li>
                 ))}

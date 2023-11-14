@@ -17,7 +17,7 @@ interface DistinguishItem {
 const distinguishItem: DistinguishItem[] = [
     {
       image: Item6,
-      title: 'PHUN XĂM CHÂN MÀY',
+      title: '',
       description1: 'Sử dụng đầu phun vi chạm, siêu nhỏ đi quả lắc tạo hạt trên bề mặt lông mày.',
       description2: 'Tạo dáng mày mềm mại theo khuôn đã định hình sẵn, sợi mày được phun rải hạt rất tỉ mỉ và mỏng mịn.',
       description3: 'Phù hợp với người có chân mày đã qua xử lý, người có sẵn khuôn lông mày nhưng nhạt màu, người muốn sở hữu chân mày sắc sảo, thời thượng.',

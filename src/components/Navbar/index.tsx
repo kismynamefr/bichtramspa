@@ -4,7 +4,6 @@ import { FiChevronDown, FiChevronRight } from 'react-icons/fi';
 import { dropdownItems } from '~/Data/DataDropdown';
 import Image from 'next/image';
 import Link from 'next/link';
-import Hot from '~/assets/Header/hot.png';
 
 interface NavItem {
   id: number;
@@ -95,7 +94,7 @@ const NavbarComponents: React.FC = () => {
     if (linkItemValue) {
       return (
         <p className="flex justify-between mb-4 border border-b-black">
-          <Link className="text-mainSpaColor hover:text-black" href={linkItemValue.toString()}>
+          <Link className="text-mainSpaColor hover:text-green-900" href={linkItemValue.toString()}>
             {dropdownItem[fieldName]}
           </Link>
           <FiChevronRight />
@@ -113,7 +112,6 @@ const NavbarComponents: React.FC = () => {
       >
         <Link href={dropdownItem.link} className="text-mainSpaColor text-lg font-bold flex gap-2 items-center">
           {dropdownItem.title}
-          <span><Image className="hot" src={Hot} alt="Hot" /></span>
         </Link>
         {renderDropdownItem(dropdownItem, 1)}
         {renderDropdownItem(dropdownItem, 2)}
@@ -141,7 +139,7 @@ const NavbarComponents: React.FC = () => {
                   {item.dropdownItems ? (
                     <div className="group">
                       <Link href={item.link} className="text-gray-900 link-navbar">
-                        <button className={`text-gray-900 cursor-pointer link-navbar`}>
+                        <button className={`text-gray-900 cursor-pointer`}>
                           {item.title}
                           <FiChevronDown
                             className={`inline-block ml-1 h-4 w-4 transition-transform ${

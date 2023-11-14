@@ -88,11 +88,11 @@ const OutstandingServices = () => {
                         height={355}
                         />
                         <div className="absolute -mt-20 w-full">
-                            <p className="bg-gradientText text-cosmetic mt-2 font-bold text-xl">{item.title}</p>
+                            <p className="text-textTitle mt-2 font-bold text-xl">{item.title}</p>
                         </div>
                         <div className="absolute w-full bg-content-OutstandingServices flex flex-col items-center sm:py-16 py-0">
-                            <p className="bg-gradientText text-cosmetic mt-2 font-bold sm:text-2xl text-xl">{item.title}</p>
-                            <p className="text-white text-justify sm:text-xl text-base max-w-xs m-auto sm:px-0 px-3">{item.description}</p>
+                            <p className="text-textTitle mt-2 font-bold sm:text-2xl text-xl">{item.title}</p>
+                            <p className="text-textTitle font-semibold text-justify sm:text-xl text-base max-w-xs m-auto sm:px-0 px-3">{item.description}</p>
                             <div className="sm:mb-0 mb-10">
                                 <EffectButton href={'/'} title="TÌM HIỂU THÊM" />
                             </div>

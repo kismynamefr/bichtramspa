@@ -38,8 +38,8 @@ const AboutUs: React.FunctionComponent = () => {
           {aboutUsItems.map((item, index) => (
             <div key={index} className="sm:w-1/3 sm:mb-0 mb-5 w-full text-center">
               <div className="w-72 mx-auto"> 
-                <Image className='w-20 h-20 mx-auto' src={item.image} alt={`icon item ${index + 1}`} />
-                <p className='text-mainSpaColor font-bold uppercase text-base mt-4'>{item.content}</p>
+                <Image className='mx-auto sm:w-auto w-20' src={item.image} alt={`icon item ${index + 1}`} />
+                <p className='text-mainSpaColor font-bold uppercase sm:text-base text-sm mt-4'>{item.content}</p>
               </div>
             </div>
           ))}
@@ -59,16 +59,16 @@ const AboutUs: React.FunctionComponent = () => {
             uy tín thế giới như FDA, KFDA và CE.</p>
 
             <div className="mt-4 px-5 sm:px-0">
-                <div className="sm:flex block items-center py-3">
-                    <Image className='sm:w-32 w-20 sm:ml-0 ml-36 sm:mb-0 mb-3' src={IconItem4} alt='IconItem' />
+                <div className="flex sm:flex-row flex-col items-center py-3">
+                    <Image className='sm:w-24 w-20 sm:mb-0 mb-3' src={IconItem4} alt='IconItem' />
                     <p className='text-mainSpaColor sm:text-start text-center font-bold ml-2'>CỤC QUẢN LÝ THỰC PHẨM VÀ DƯỢC PHẨM HOA KỲ</p>
                 </div>
-                <div className="sm:flex block items-center py-3">
-                    <Image className='sm:w-32 w-20 sm:ml-0 ml-36 sm:mb-0 mb-3' src={IconItem5} alt='IconItem' />
+                <div className="flex sm:flex-row flex-col items-center py-3">
+                    <Image className='sm:w-24 w-20 sm:mb-0 mb-3' src={IconItem5} alt='IconItem' />
                     <p className='text-mainSpaColor sm:text-start text-center font-bold ml-2'>CỤC AN TOÀN DƯỢC PHẨM VÀ THỰC PHẨM HÀN QUỐC</p>
                 </div>
-                <div className="sm:flex block items-center py-3">
-                    <Image className='sm:w-32 w-20 sm:ml-0 ml-36 sm:mb-0 mb-3' src={IconItem6} alt='IconItem' />
+                <div className="flex sm:flex-row flex-col items-center py-3">
+                    <Image className='sm:w-24 w-20 sm:mb-0 mb-3' src={IconItem6} alt='IconItem' />
                     <p className='text-mainSpaColor sm:text-start text-center font-bold ml-2'>CHỨNG NHẬN KIỂM ĐỊNH CỦA CHÂU ÂU</p>
                 </div>
             </div>

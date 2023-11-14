@@ -22,7 +22,7 @@ import Item16 from '~/assets/SprayCosmeticTattooing/item-16.png'
 
 const Service = () => {
   return (
-    <div className="bg-mainSpaColor w-full">
+    <div className="bg-boxtimeSpaColor bg-rou w-full">
         <div className="w-full max-w-[1060px] m-auto text-center pt-20">
           <h1 className='bg-gradientText text-cosmetic font-bold sm:text-6xl text-4xl pb-4'>CÁC DỊCH VỤ PHUN XĂM THẨM MỸ</h1>
           <h2 className='text-white sm:text-4xl text-3xl font-medium pb-4'>TẠI THẨM MỸ QUỐC TẾ BÍCH TRÂM</h2>

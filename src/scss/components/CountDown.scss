@@ -1,14 +1,14 @@
 .icon-cosmetic {
     &::before {
         content: "";
-        background-image: url(../../assets/SprayCosmeticTattooing/icon-1.png);
+        background-image: url(../../assets/NavigationMenuMobile/icon-promotion.gif);
         position: absolute;
         background-repeat: no-repeat;
         background-size: contain;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         z-index: 4;
-        top: 216px;
+        top: 215px;
         left: 24%;
         bottom: 0;
     }

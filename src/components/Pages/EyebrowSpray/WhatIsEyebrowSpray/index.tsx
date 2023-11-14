@@ -9,6 +9,7 @@ import Item2 from '~/assets/EyebrowSpray/item-2.png'
 import Item3 from '~/assets/EyebrowSpray/item-3.png'
 import Item4 from '~/assets/EyebrowSpray/item-4.png'
 import Item5 from '~/assets/EyebrowSpray/item-5.png'
+import Hot from '~/assets/Header/hot.png'
 
 
 interface PopularityItem {
@@ -50,7 +51,7 @@ const WhatIsWhatIsEyebrowSpray = () => {
     <div className="bg-EyebrowSpray2 w-full">
       <div className="max-w-[1400px] m-auto py-5 px-10 text-center">
           <div className="w-full max-w-[700px] m-auto">
-              <h1 className='bg-gradientText text-cosmetic font-bold text-5xl pb-4'>PHUN XĂM CHÂN MÀY</h1>
+              <h1 className='bg-gradientText text-cosmetic font-bold text-5xl pb-4'>PHUN XĂM CHÂN MÀY </h1>
               <h2 className='text-white text-3xl font-bold pb-4'>LÀ GÌ?</h2>
               <p className='text-white text-justify text-base pb-4'>Phun xăm chân mày sử dụng thiết bị chuyên dụng có gắn một đầu kim tròn hoặc dẹt cực mảnh để lấy mực và phẩy mực lên khuôn chân mày đã thiết kế trước đó. Đây là kỹ thuật thẩm mỹ ít xâm lấn nhưng mang lại hiệu quả cao, giúp bạn sở hữu hàng chân mày thanh tú, sắc nét, tôn lên thần thái và vẻ đẹp của gương mặt.</p>
           </div>

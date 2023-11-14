@@ -49,7 +49,7 @@ const serviceItems: ServiceItem[] = [
 
 const OurServices = () => {
   return (
-    <div className="w-full bg-our-service -mt-16 pb-10 z-10">
+    <div className="w-full pb-10 z-10">
       <div className="mt-10">
         <div className="flex justify-center items-center p-10">
           <h1 className='text-mainSpaColor font-bold sm:text-3xl text-2xl custom-gradient-text'>DỊCH VỤ TẠI BÍCH TRÂM</h1>
@@ -57,7 +57,7 @@ const OurServices = () => {
         <div className='flex flex-row flex-wrap max-w-1300 w-full mx-auto justify-center'>
         {serviceItems.map((service) => (
           <div key={service.id} className='sm:w-1/3 w-full sm:basis-1/3  p-4 pt-0 px-3 pb-5 '>
-            <div className="rounded-2xl border border-deep-purple-800 h-550">
+            <div className="rounded-2xl border border-green-800 h-550">
               <div className="sm:h-[480px] h-auto">
                 <Image src={service.image} alt={service.title} className='rounded-t-2xl rounded-tr-2xl w-full'/>
                   <div className="text-mainSpaColor w-full text-center">

@@ -6,7 +6,10 @@ module.exports = withMT({
     extend: {
       colors: {
         fbad: "#fbad17",
-        mainSpaColor: "#422369",
+        mainSpaColor: "#669666",
+        boxtimeSpaColor: "#014f2a",
+        titlemainSpaColor: "#008037",
+        textTitle: "#c7b16a"
       },
       maxWidth: {
         1440: "1440px",
@@ -32,7 +35,7 @@ module.exports = withMT({
         borderMenuMb: "hsla(0,0%,100%,.2)",
       },
       backgroundImage: {
-        gradientCosmetic: 'linear-gradient(141.82deg,#9F2AF5 -66.97%,#422369 42.57%)',
+        gradientCosmetic: 'linear-gradient(141.82deg,#03b15f -66.97%,#014f2a 42.57%) ',
         gradientText: 'linear-gradient(180deg,#FBAD17 0%,#FF6400 100%)'
       },
     },

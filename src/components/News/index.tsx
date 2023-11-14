@@ -1,7 +1,7 @@
 import React from 'react';
 import Image, { type StaticImageData } from 'next/image';
 import Link from 'next/link';
-import Item1 from '~/assets/News/Item-1.jpg';
+import Item1 from '~/assets/Banner/banner-03.png';
 import Item2 from '~/assets/News/Item-2.jpg';
 import Item3 from '~/assets/News/Item-3.jpg';
 import Item4 from '~/assets/News/Item-4.jpg';
@@ -61,7 +61,7 @@ const News: React.FC = () => {
                             height={330}
                             className="rounded-2xl"
                         />
-                        <h2 className="text-mainSpaColor font-bold text-2xl pt-3">{newsData[0].title}</h2>
+                        <h2 className="text-titlemainSpaColor font-bold text-2xl pt-3">{newsData[0].title}</h2>
                         <p className="pt-5 text-base">{newsData[0].description}</p>
                     </div>
                     <div className="sm:w-6/12 w-full sm:pl-3 pl-0 sm:block flex overflow-x-auto">
@@ -77,7 +77,7 @@ const News: React.FC = () => {
                                     />
                                 </div>
                                 <div className="text-center p-4 w-400 mt-2">
-                                    <h2 className="text-mainSpaColor font-bold text-lg">{news.title}</h2>
+                                    <h2 className="text-titlemainSpaColor font-bold text-lg">{news.title}</h2>
                                     <p className="mt-2">{news.description}</p>
                                 </div>
                             </div>

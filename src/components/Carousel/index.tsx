@@ -3,12 +3,12 @@ import React from "react";
 import { Carousel, IconButton } from "@material-tailwind/react";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
 import Image, { type StaticImageData } from "next/image";
-import banner1 from "~/assets/Banner/banner1.png";
-import banner2 from "~/assets/Banner/banner2.png";
-import banner3 from "~/assets/Banner/banner3.png";
-import banner1Mb from "~/assets/Banner/banner1-mobile.png";
-import banner2Mb from "~/assets/Banner/banner2-mobile.png";
-import banner3Mb from "~/assets/Banner/banner3-mobile.png";
+import banner1 from "~/assets/Banner/banner-01.png";
+import banner2 from "~/assets/Banner/banner-02.png";
+import banner3 from "~/assets/Banner/banner-03.png";
+import banner1Mb from "~/assets/Banner/banner-mobile01.png";
+import banner2Mb from "~/assets/Banner/banner-mobile02.png";
+import banner3Mb from "~/assets/Banner/banner-mobile03.png";
 
 interface TypeImageList {
     link: StaticImageData;
@@ -78,7 +78,7 @@ const CarouselComponent: React.FC = () => {
                         </button>
                     )}
                     navigation={({ setActiveIndex, activeIndex, length }) => (
-                        <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
+                        <div className="!hidden absolute bottom-4 left-2/4 z-50 -translate-x-2/4 gap-2">
                             {new Array(length).fill("").map((_, i) => (
                                 <span
                                     key={i}
@@ -119,7 +119,7 @@ const CarouselComponent: React.FC = () => {
                         </button>
                     )}
                     navigation={({ setActiveIndex, activeIndex, length }) => (
-                        <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
+                        <div className="absolute bottom-4 left-2/4 z-50 !hidden -translate-x-2/4 gap-2">
                             {new Array(length).fill("").map((_, i) => (
                                 <span
                                     key={i}

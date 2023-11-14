@@ -20,7 +20,7 @@ const SkinTreatment = () => {
       <OutstandingServices/>
       <SkinTreatmentTechnologies/>
       <CustomerPictures/>
-      <CustomerComments/>
+      {/* <CustomerComments/> */}
       <Standard/>
       <Advantage/>
     </>
