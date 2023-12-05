@@ -53,7 +53,7 @@ const ProcedureMobile = () => {
           <div className="mt-5 max-w-[1400px] m-auto">
             {technologiesItem.map((item, index) => (
               <div key={index}>
-                <div className="relative flex">
+                <div className="relative flex justify-center">
                   <Image
                     src={item.link}
                     alt={item.alt}
@@ -61,8 +61,8 @@ const ProcedureMobile = () => {
                     width={436}
                     height={553}
                   />
-                  <div className="w-full px-16 text-center bottom-11 absolute">
-                      <p className="text-white !mt-2 m-auto max-w-[270px] font-bold text-xl">{item.title}</p>
+                  <div className="w-[320px] h-28 px-16 text-center bottom-7 absolute shadow-cus bg-boxImg">
+                      <p className="text-white !mt-2 m-auto max-w-[270px] all-center h-full w-full font-bold text-xl">{item.title}</p>
                   </div>
                 </div>
               </div>

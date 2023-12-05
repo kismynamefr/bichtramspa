@@ -47,11 +47,10 @@ const StatusObesity = () => {
   const firstColumn = advantageItems.slice(0, 2);
   const secondColumn = advantageItems.slice(2);
   return (
-    <div className="bg-ReduceBodyFat-2MB sm:bg-ReduceBodyFat-2 w-full">
+    <div className="bg-boxtimeSpaColor w-full">
       <div className="py-5 text-center max-w-[1400px] m-auto">
-        <div className="flex justify-center sm:px-0 px-12">
-          <Image src={TitleCenter} width={832} height={242} alt='Item Spa' />
-        </div>
+        <h2 className='text-white text-3xl font-bold pb-4'>THỪA CÂN BÉO PHÌ</h2>
+        <h1 className='bg-gradientText text-cosmetic font-bold sm:text-5xl text-4xl pb-4'>GÂY HẠI CHO SỨC KHỎE</h1>
       </div>
       <div className="max-w-[1400px] m-auto py-5 px-10 items-center sm:flex hidden">
         <div className="w-3/5 flex justify-start items-start">

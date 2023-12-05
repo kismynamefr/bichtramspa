@@ -58,7 +58,7 @@ const OurServices = () => {
         {serviceItems.map((service) => (
           <div key={service.id} className='sm:w-1/3 w-full sm:basis-1/3  p-4 pt-0 px-3 pb-5 '>
             <div className="rounded-2xl border border-green-800 h-550">
-              <div className="sm:h-[480px] h-auto">
+              <div className="sm:h-[460px] h-auto">
                 <Image src={service.image} alt={service.title} className='rounded-t-2xl rounded-tr-2xl w-full'/>
                   <div className="text-mainSpaColor w-full text-center">
                       <h2 className='font-bold text-2xl uppercase pt-3'>{service.title}</h2>

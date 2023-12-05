@@ -14,7 +14,7 @@ const advantageItems = [
 
 const Advantage = () => {
   return (
-    <div className="bg-SkinTreatment-6 sm:h-[740px] h-auto w-full">
+    <div className="bg-boxtimeSpaColor sm:h-[740px] h-auto w-full">
       <div className="w-full max-w-[700px] py-10 m-auto text-center">
         <h2 className='text-white text-4xl font-bold pb-4'>THẨM MỸ QUỐC TẾ BÍCH TRÂM</h2>
         <h2 className='text-white text-4xl font-bold pb-4'>THẨM MỸ CHUẨN 5 SAO</h2>
@@ -23,7 +23,7 @@ const Advantage = () => {
         <div className="sm:w-6/12 w-full">
           <Image src={Item21} width={700} alt='Icon Spa' className='relative top-9'/>
         </div>
-        <div className="sm:w-6/12 w-full bg-Advantage sm:block hidden">
+        <div className="sm:w-6/12 w-full  sm:block hidden">
           <div className="z-20 relative">
             {advantageItems.map((item, index) => (
               <p key={index} className="text-white text-justify font-bold text-base max-w-xl py-2 m-auto">

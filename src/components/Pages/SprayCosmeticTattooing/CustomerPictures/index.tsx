@@ -46,7 +46,7 @@ const items: Item[] = [
 
 const CustomerPictures = () => {
   return (
-    <div className="bg-cosmetic5 w-full">
+    <div className="bg-boxtimeSpaColor w-full">
         <div className="w-full max-w-[1060px] m-auto text-center pt-10">
           <h2 className='text-white text-4xl font-medium pb-4'>HÌNH ẢNH</h2>
           <h1 className='bg-gradientText text-cosmetic font-bold sm:text-6xl text-4xl pb-4'>KHÁCH HÀNG PHUN</h1>
@@ -57,7 +57,7 @@ const CustomerPictures = () => {
           <div className="flex flex-row flex-wrap justify-center gap-14">
           {items.map((item, index) => (
             <div key={index} className="text-center">
-              <Image src={item.image} alt='Item' className='w-[390px] h-[260px] object-cover'/>
+              <Image src={item.image} alt='Item' className='md:w-[390px] w-[420px] h-[260px] object-cover'/>
               <div className="">
                 <p className='text-white font-medium text-xl'>{item.name}</p>
                 <p className='bg-gradientText text-cosmetic font-bold text-base max-w-[300px] m-auto'>{item.title}</p>
@@ -69,7 +69,7 @@ const CustomerPictures = () => {
         <div className="sm:hidden block">
             <Carousel
                 transition={{ duration: 1 }}
-                autoplay={true}
+                autoplay={false}
                 loop={true}
                 className="max-w-[800px] overflow-hidden"
                 prevArrow={({ handlePrev }) => (
@@ -104,7 +104,7 @@ const CustomerPictures = () => {
             >
             {items.map((item, index) => (
               <div key={index} className="text-center">
-                <Image src={item.image} alt='Item' className='w-[390px] h-[260px] object-cover'/>
+                <Image src={item.image} alt='Item' className='md:max-w-[390px] max-w-[420px] w-full m-auto h-[260px] object-cover'/>
                 <div className="">
                   <p className='text-white font-medium text-xl'>{item.name}</p>
                   <p className='bg-gradientText text-cosmetic font-bold text-base max-w-[300px] m-auto'>{item.title}</p>

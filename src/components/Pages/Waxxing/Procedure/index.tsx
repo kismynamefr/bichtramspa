@@ -53,7 +53,7 @@ const Procedure = () => {
     const bottomItems = technologiesItem.slice(3, 6); 
   
     return (
-      <div className="bg-SkinTreatment-3 w-full">
+      <div className="bg-boxtimeSpaColor w-full">
         <div className="py-10 text-center max-w-[1400px] m-auto">
           <h1 className='text-white font-bold sm:text-5xl text-4xl pb-4'>QUY TRÌNH PHUN XĂM TRIỆT LÔNG VĨNH VIỄN</h1>
           <h2 className='bg-gradientText text-cosmetic text-3xl font-bold pb-4'>TẠI BÍCH TRÂM</h2>
@@ -62,7 +62,7 @@ const Procedure = () => {
           <div className="grid grid-cols-3 gap-5 mt-5 max-w-[1400px] m-auto">
             {topItems.map((item, index) => (
               <div key={index}>
-                <div className="relative flex">
+                <div className="relative flex justify-center">
                   <Image
                     src={item.link}
                     alt={item.alt}
@@ -70,8 +70,8 @@ const Procedure = () => {
                     width={436}
                     height={553}
                   />
-                  <div className="w-[436px] px-16 text-center bottom-11 absolute">
-                      <p className="text-white !mt-2 m-auto max-w-[270px] font-bold text-xl">{item.title}</p>
+                  <div className="w-[320px] h-28 bottom-7 px-16 text-center absolute shadow-cus bg-boxImg">
+                      <p className="text-white max-w-[270px] all-center h-full w-full font-bold text-xl">{item.title}</p>
                   </div>
                 </div>
               </div>
@@ -80,7 +80,7 @@ const Procedure = () => {
           <div className="grid grid-cols-3 gap-5 mt-5 max-w-[1400px] m-auto">
             {bottomItems.map((item, index) => (
               <div key={index}>
-                <div className="relative flex">
+                <div className="relative flex justify-center">
                   <Image
                     src={item.link}
                     alt={item.alt}
@@ -88,8 +88,8 @@ const Procedure = () => {
                     width={436}
                     height={553}
                   />
-                  <div className="w-[436px] px-16 text-center bottom-11 absolute">
-                      <p className="text-white !mt-2 m-auto max-w-[270px] font-bold text-xl">{item.title}</p>
+                  <div className="w-[320px] h-28 bottom-6 px-16 text-center absolute shadow-cus bg-boxImg">
+                      <p className="text-white max-w-[270px] all-center h-full w-full font-bold text-xl">{item.title}</p>
                   </div>
                 </div>
               </div>

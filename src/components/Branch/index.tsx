@@ -7,7 +7,7 @@ const Sale = () => {
             <div className="sm:w-1300 w-full mx-auto border-2 border-white my-20 rounded-2xl">
                 <div className="py-10 sm:px-20 px-4 text-center sm:h-auto h-[420px]">
                     <div className="">
-                        <h1 className='text-2xl font-bold uppercase text-white'>Hệ thống viện thẩm mỹ quốc tế ...</h1>
+                        <h1 className='text-2xl font-bold uppercase text-white'>Hệ thống viện thẩm mỹ quốc tế Bích Trâm</h1>
                         <h2 className='text-lg uppercase text-white py-3 px-6 mt-4 bg-btn-brach inline-block rounded-3xl cursor-pointer font-bold'>Tp. Hồ Chí Minh</h2>
                     </div>
                     <hr className="hr-branch mt-6 sm:block hidden" />

@@ -60,7 +60,7 @@ const popularityItem: PopularityItem[] = [
 
 const ResultsChange = () => {
     return (
-      <div className="bg-Waxxing-4 w-full sm:block hidden">
+      <div className="bg-boxtimeSpaColor  w-full sm:block hidden">
         <div className="max-w-[1400px] m-auto py-5 px-10 text-center">
         <div className="py-5 text-center max-w-[1400px] m-auto">
             <h2 className='text-white sm:text-3xl text-2xl font-bold pb-4'>KẾT QUẢ</h2>

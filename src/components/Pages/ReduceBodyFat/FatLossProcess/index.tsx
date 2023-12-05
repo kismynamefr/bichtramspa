@@ -59,7 +59,7 @@ const FatLossProcess = () => {
     const bottomItems = technologiesItem.slice(3, 5); 
   
     return (
-      <div className="bg-SkinTreatment-3 w-full">
+      <div className="bg-boxtimeSpaColor w-full">
         <div className="py-5 text-center max-w-[1400px] m-auto">
           <h2 className='text-white text-3xl font-bold pb-4'>QUY TRÌNH</h2>
           <h1 className='bg-gradientText text-cosmetic font-bold sm:text-5xl text-4xl pb-4'>GIẢM MỠ TOÀN THÂN CHUẨN Y KHOA</h1>

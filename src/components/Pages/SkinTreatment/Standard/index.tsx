@@ -27,7 +27,7 @@ const standardItem: StandardItem[] = [
 
 const Standard = () => {
   return (
-    <div className="bg-cosmetic2 w-full">
+    <div className="bg-boxtimeSpaColor w-full">
       <div className="w-full max-w-[700px] py-10 m-auto text-center">
         <h2 className='text-white text-4xl font-bold pb-4'>THẨM MỸ QUỐC TẾ BÍCH TRÂM</h2>
         <h2 className='text-white text-4xl font-bold pb-4'>THẨM MỸ CHUẨN 5 SAO</h2>

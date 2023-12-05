@@ -118,15 +118,15 @@ const serviceTitles = [
 
 const ServiceMobile = () => {
   return (
-    <div className="sm:hidden block px-3">
+    <div className="lg:hidden block px-3">
       {serviceTitles.map((title, index) => (
       <div className="py-10">
           <div
             key={index}
-            className="bg-ServiceMobile max-w-[1440px] w-full m-auto rounded-2xl "
+            className="bg-boxImg shadow-cus max-w-[1440px] w-full m-auto rounded-2xl "
           >
           <div className="py-4 boxTitle">
-            <div className="text-white sn:text-5xl text-3xl sm:text-start text-center font-medium pb-4">
+            <div className="text-white sn:text-5xl text-3xl lg:text-start text-center font-bold pb-4">
               {title}
             </div>
           </div>
@@ -140,7 +140,7 @@ const ServiceMobile = () => {
                   alt={item.alt}
                   className="rounded-2xl"
                 />
-                <p className="text-white py-4 text-base">{item.description}</p>
+                <p className="text-white py-6 text-xl">{item.description}</p>
               </div>
             ))}
           </div>

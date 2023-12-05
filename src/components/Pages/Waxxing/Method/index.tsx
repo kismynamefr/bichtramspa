@@ -52,7 +52,7 @@ const Method = () => {
     const secondColumn = advantageItem.slice(2);
   
     return (
-      <div className="bg-Waxxing-2 w-full">
+      <div className="bg-boxtimeSpaColor w-full">
         <div className="py-5 text-center max-w-[1400px] m-auto">
           <div className="flex justify-center sm:px-0 px-12">
             <Image src={TitleCenter} width={727} height={228} alt='Item Spa' />

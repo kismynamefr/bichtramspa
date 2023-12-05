@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import Image from 'next/image';
-import BgWaxxingMb from '~/assets/Waxxing/bg-Waxxing-1-Mb.png'
+import BgWaxxingMb from '~/assets/Banner/banner-mobile03.png'
 import CountDown from '~/components/CountDown';
 import Method from '~/components/Pages/Waxxing/Method';
 import HairRemovalTechnology from '~/components/Pages/Waxxing/HairRemovalTechnology';
@@ -21,13 +21,13 @@ const Waxxing = () => {
       <Image src={BgWaxxingMb} alt='background WhiteBath mobile' className='sm:hidden block w-full'/>
       <CountDown/>
       <Method/>
-      <HairRemovalTechnology/>
+      {/* <HairRemovalTechnology/> */}
       <ResultsChange/>
       <ResultsChangeMobile/>
       <Procedure/>
-      <ShouldChoose/>
-      <ShouldChooseMobile/>
-      <CustomerComments/>
+      {/* <ShouldChoose/> */}
+      {/* <ShouldChooseMobile/> */}
+      {/* <CustomerComments/> */}
       <Question/>
     </>
   );

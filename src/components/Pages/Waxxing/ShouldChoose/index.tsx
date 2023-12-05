@@ -35,7 +35,7 @@ const boxBlocks: BoxBlock[] = [
 
 const ShouldChoose = () => {
   return (
-    <div className="bg-Waxxing-5 w-full h-screen sm:block hidden">
+    <div className="bg-boxtimeSpaColor  w-full h-screen sm:block hidden">
       <div className="max-w-[1070px] relative m-auto flex flex-col justify-center items-center h-screen">
         <div className=" flex justify-center items-center w-full absolute z-10">
           <Image src={BannerCenter} width={460} height={690} alt="Banner Center" />

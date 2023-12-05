@@ -60,7 +60,7 @@ const popularityItem: PopularityItem[] = [
 
 const Procedure = () => {
     return (
-      <div className="bg-EyebrowSpray2 w-full">
+      <div className="bg-boxtimeSpaColor w-full">
         <div className="max-w-[1400px] m-auto py-5 px-10 text-center">
         <div className="py-5 text-center max-w-[1400px] m-auto">
             <h1 className='bg-gradientText text-cosmetic font-bold sm:text-5xl text-3xl pb-4'>6 ƯU ĐIỂM</h1>

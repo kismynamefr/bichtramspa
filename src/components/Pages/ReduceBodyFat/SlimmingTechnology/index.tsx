@@ -8,7 +8,7 @@ import Item17 from '~/assets/ReduceBodyFat/Item-17.png'
 
 const SlimmingTechnology = () => {
   return (
-    <div className="bg-ReduceBodyFat-3 w-full">
+    <div className="bg-boxtimeSpaColor w-full">
       <div className="max-w-[1400px] m-auto py-5 px-10 gap-10 flex items-center">
         <div className="w-2/5 sm:block hidden">
             <Image src={Item16} alt="Item Spa"/>

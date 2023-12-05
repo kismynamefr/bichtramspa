@@ -52,7 +52,7 @@ const imageList: Array<TypeImageList> = [
 
 const Infrastructure: React.FunctionComponent<any> = () => {
     return (
-        <div className='bg-infrastructure w-full z-20 -mt-28'>
+        <div className='bg-boxtimeSpaColor bg-rou w-full z-20 -mt-28'>
             <div className="mt-24">
                 <div className="flex justify-center items-center p-10">
                     <h1 className='text-white font-bold text-2xl text-center'>HÌNH ẢNH CƠ SỞ VẬT CHẤT</h1>
@@ -101,7 +101,7 @@ const Infrastructure: React.FunctionComponent<any> = () => {
                                         subItem ? (
                                             <div className='relative flex gap-3 justify-center' key={subItem.alt}>
                                                 <Image
-                                                    className="rounded-lg"
+                                                    className="rounded-2xl border-cus"
                                                     src={subItem.link}
                                                     alt={subItem.alt}
                                                     width={570}

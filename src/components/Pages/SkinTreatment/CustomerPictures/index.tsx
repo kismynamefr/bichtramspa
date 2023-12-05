@@ -17,7 +17,6 @@ interface CustomerPicturesItem {
     alt: string,
     step: string,
     title: string,
-    description: string,
 }
 
 const customerPicturesItem: Array<CustomerPicturesItem> = [
@@ -25,43 +24,37 @@ const customerPicturesItem: Array<CustomerPicturesItem> = [
         link: Item12,
         alt: "Step 1",
         step: "(23 TUỔI)",
-        title: "ANH MINH THỨ",
-        description : "ĐIỀU TRỊ MỤN NANG",
+        title: "CHỊ THÙY LINH",
     },
     {
         link: Item13,
         alt: "Step 2",
-        step: "(31 TUỔI)",
+        step: "(27 TUỔI)",
         title: "CHỊ NGỌC HÂN",
-        description : "ĐIỀU TRỊ NÁM CHÂN SÂU",
     },
     {
         link: Item14,
         alt: "Step 3",
         step: "(35 TUỔI)",
         title: "CHỊ TRÂN CHÂU",
-        description : "ĐIỀU TRỊ NÁM MẢNG",
     },
     {
         link: Item15,
         alt: "Step 4",
         step: "(27 TUỔI)",
         title: "CHỊ HỒNG NHUNG",
-        description : "ĐIỀU TRỊ SẸO RỖ",
     },
     {
         link: Item16,
         alt: "Step 5",
         step: "(30 TUỔI)",
         title: "CHỊ MINH NGỌC",
-        description : "ĐIỀU TRỊ SẸO LỒI",
     },
     {
         link: Item17,
         alt: "Step 6",
         step: "(24 TUỔI)",
         title: "CHỊ TUYẾT ANH",
-        description : "ĐIỀU TRỊ MỤN BỌC",
     },
    
    
@@ -69,11 +62,10 @@ const customerPicturesItem: Array<CustomerPicturesItem> = [
 
 const CustomerPictures = () => {
   return (
-    <div className="bg-SkinTreatment-4 w-full">
-        <div className="py-5 text-center max-w-[1400px] m-auto">
-            <div className="w-full flex justify-center">
-            <Image src={BannerTitle} alt='Banner EyebroSprays' />
-            </div>
+    <div className="bg-boxtimeSpaColor w-full">
+        <div className="w-full max-w-[1060px] m-auto text-center pt-20">
+          <h1 className='bg-gradientText text-cosmetic font-bold lg:text-6xl text-4xl pb-4'>KHÁCH HÀNG ĐÃ TIN CHỌN</h1>
+          <h2 className='text-white lg:text-4xl text-3xl font-medium pb-4'>DỊCH VỤ TẠI BÍCH TRÂM</h2>
         </div>
         <div className="hidden grid-cols-3 gap-5 mt-5 max-w-[1400px] m-auto sm:grid ">
             {customerPicturesItem.map((item, index) => (
@@ -83,13 +75,11 @@ const CustomerPictures = () => {
                         src={item.link}
                         alt={item.alt}
                         className='object-cover object-center'
-                        width={833}
-                        height={567}
+                        width={400}
                     />
-                    <div className="-bottom-28 absolute text-center">
+                    <div className="-bottom-20 absolute text-center">
                         <p className='bg-gradientText text-cosmetic mt-2 font-bold text-2xl'>{item.title}</p>
                         <p className='text-orange-900 font-bold mt-2 text-lg'>{item.step}</p>
-                        <p className='text-white mt-2 font-bold text-base'>{item.description}</p>
                     </div>
                 </div>
             </div>
@@ -138,13 +128,11 @@ const CustomerPictures = () => {
                                 src={item.link}
                                 alt={item.alt}
                                 className='object-cover object-center'
-                                width={833}
-                                height={567}
+                                width={620}
                             />
                             <div className="-bottom-28 absolute text-center">
                                 <p className='bg-gradientText text-cosmetic mt-2 font-bold text-2xl'>{item.title}</p>
                                 <p className='text-orange-900 font-bold mt-2 text-lg'>{item.step}</p>
-                                <p className='text-white mt-2 font-bold text-base'>{item.description}</p>
                             </div>
                         </div>
                     </div>
@@ -152,7 +140,7 @@ const CustomerPictures = () => {
             </Carousel>
         </div>
         <div className="text-center pb-8">
-            <EffectButton href={'/'} title='ĐĂNG KÝ SOI DA MIỄN PHÍ'/>
+            <EffectButton href={'/'} title='ĐĂNG KÝ MIỄN PHÍ'/>
         </div>
     </div>
     

@@ -31,7 +31,7 @@ const bannerList: Array<TypeBannerList> = [
 
 const Promotions = () => {
   return (
-    <div className="bg-cosmetic6 w-full py-7 sm:pb-7 pb-16">
+    <div className="bg-boxtimeSpaColor w-full py-7 sm:pb-7 pb-16">
         <div className="sm:flex block justify-center items-center gap-10 sm:text-start text-center">
             <div className="">
                 <p className='bg-gradientText text-cosmetic font-bold text-4xl max-w-[400px]'>CÁC CHƯƠNG TRÌNH KHUYẾN MÃI</p>

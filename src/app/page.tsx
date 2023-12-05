@@ -14,7 +14,7 @@ const Home: React.FunctionComponent = () => {
       <OurServices/>
       <Sale/>
       <MissKOL/>
-      <AboutUs/>
+      {/* <AboutUs/> */}
       <Infrastructure/>
       <News/>
       <Branch/>

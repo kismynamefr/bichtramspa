@@ -62,7 +62,7 @@ const serviceItem: ServiceItem[] = [
 
 const Service = () => {
   return (
-    <div className="bg-SkinTreatment-2 w-full">
+    <div className="bg-boxtimeSpaColor w-full">
       <div className="max-w-[1400px] m-auto py-20 px-10 text-center">
           <div className="w-full max-w-[700px] m-auto">
               <h2 className='text-white text-3xl font-bold pb-4'>CÁC DỊCH VỤ</h2>
@@ -80,13 +80,13 @@ const Service = () => {
                         width={436}
                         height={355}
                         />
-                        <div className="absolute -mt-20 w-full">
-                            <p className="bg-gradientText text-cosmetic mt-2 font-bold text-3xl">{item.title}</p>
+                        <div className="absolute bg-[#010101a3] -mt-20 w-full rounded-b-2xl h-20 all-center">
+                            <p className="text-textTitle  mt-2 font-bold text-xl">{item.title}</p>
                         </div>
                         <div className="absolute w-full bg-content-OutstandingServices flex flex-col items-center sm:py-16 py-0">
-                            <p className="bg-gradientText text-cosmetic mt-2 font-bold sm:text-2xl text-xl">{item.title}</p>
+                            <p className="text-textTitle mt-2 font-bold sm:text-2xl text-xl">{item.title}</p>
                             <p className="text-white text-justify sm:text-xl text-base max-w-xs m-auto sm:px-0 px-3">{item.description}</p>
-                            <div className="sm:mb-0 mb-10">
+                            <div className="sm:-mb-6 mb-10">
                                 <EffectButton href={'/'} title="TÌM HIỂU THÊM" />
                             </div>
                         </div>

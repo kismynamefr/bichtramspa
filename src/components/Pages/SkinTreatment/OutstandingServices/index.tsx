@@ -4,7 +4,7 @@ import Image, {StaticImageData} from 'next/image';
 import EffectButton from '~/components/EffectButton';
 import BannerTitle from '~/assets/SkinTreatment/banner-title.png'
 import BannerTitleMB from '~/assets/SkinTreatment/banner-title-mb.png'
-import Item1 from '~/assets/SkinTreatment/Item-1.png'
+import Item1 from '~/assets/SkinTreatment/Item-1-test.png'
 import Item2 from '~/assets/SkinTreatment/Item-2.png'
 import Item3 from '~/assets/SkinTreatment/Item-3.png'
 import Item4 from '~/assets/SkinTreatment/Item-4.png'
@@ -64,14 +64,11 @@ const outstandingServicesItem: OutstandingServicesItem[] = [
 
 const OutstandingServices = () => {
   return (
-    <div className="bg-SkinTreatment-2 w-full">
+    <div className="bg-boxtimeSpaColor w-full">
       <div className="max-w-[1400px] m-auto py-20 px-10 text-center">
           <div className="w-full max-w-[700px] m-auto">
               <h1 className='bg-gradientText text-cosmetic font-bold sm:text-5xl text-4xl pb-4'>CÁC DỊCH VỤ ĐIỀU TRỊ DA</h1>
               <h2 className='text-white text-3xl font-bold pb-4'>NỔI BẬT</h2>
-          </div>
-          <div className="w-full sm:block hidden">
-            <Image src={BannerTitle} alt='Banner EyebroSprays' />
           </div>
           <div className="w-full sm:hidden block">
             <Image src={BannerTitleMB} alt='Banner EyebroSprays' />
@@ -83,14 +80,14 @@ const OutstandingServices = () => {
                         <Image
                         src={item.image}
                         alt={item.alt}
-                        className="object-cover object-center rounded-2xl"
+                        className="object-cover object-center rounded-2xl w-[436px] h-[334px]"
                         width={436}
                         height={355}
                         />
-                        <div className="absolute -mt-20 w-full">
+                        <div className="absolute bg-[#010101a3] -mt-20 w-full rounded-b-2xl h-20 all-center">
                             <p className="text-textTitle mt-2 font-bold text-xl">{item.title}</p>
                         </div>
-                        <div className="absolute w-full bg-content-OutstandingServices flex flex-col items-center sm:py-16 py-0">
+                        <div className="absolute w-full bg-content-OutstandingServices flex flex-col items-center sm:py-12 py-0">
                             <p className="text-textTitle mt-2 font-bold sm:text-2xl text-xl">{item.title}</p>
                             <p className="text-textTitle font-semibold text-justify sm:text-xl text-base max-w-xs m-auto sm:px-0 px-3">{item.description}</p>
                             <div className="sm:mb-0 mb-10">

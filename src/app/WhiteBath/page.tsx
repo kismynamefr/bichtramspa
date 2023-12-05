@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import Image from 'next/image';
-import BgWhiteBathMb from '~/assets/WhiteBath/bg-WhiteBath-1-mb.png'
+import BgWhiteBathMb from '~/assets/Banner/banner-mobile02.png'
 import CountDown from '~/components/CountDown';
 import Risks from '~/components/Pages/WhiteBath/Risks';
 import BathingTechnology from '~/components/Pages/WhiteBath/BathingTechnology';
@@ -21,7 +21,7 @@ const WhiteBath = () => {
       <Risks/>
       <BathingTechnology/>
       <CustomerPictures/>
-      <CustomerComments/>
+      {/* <CustomerComments/> */}
       <WhiteBathProcess/>
       <Procedure/>
       <Question/>

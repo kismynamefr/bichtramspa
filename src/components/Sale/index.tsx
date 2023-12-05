@@ -50,27 +50,28 @@ const saleItems = [
 
 const Sale = () => {
   return (
-    <div className="w-full bg-sale z-10 sm:h-1100 h-[640px] relative">
+    <div className="w-full bg-boxtimeSpaColor z-10 h-[1110px] md:block hidden relative">
       <div className="mx-auto w-full">
         <div className="">
-          <div className="flex justify-center items-center py-8">
-            <Image src={LogoTitle} alt="title" />
+           <div className="py-10 text-center max-w-[1400px] m-auto">
+            <h1 className='text-white font-bold md:text-5xl text-4xl pb-4'>SIÊU ƯU ĐÃI 20%</h1>
+            <h2 className='bg-gradientText text-cosmetic text-3xl font-bold pb-4'>TẠI BÍCH TRÂM</h2>
           </div>
         </div>
-        <div className="sm:flex block flex-row flex-wrap justify-center sm:w-1300 w-full mx-auto">
-            <div className="sm:w-5/12 w-full sm:pr-5 pr-0">
-            <ul className='sm:px-0 px-3'>
+        <div className="md:flex block flex-row flex-wrap justify-center md:w-1300 w-full mx-auto">
+            {/* <div className="md:w-5/12 w-full md:pr-5 pr-0">
+            <ul className='md:px-0 px-3'>
                 {saleItems.map((item) => (
-                <li key={item.id} className="mb-4 sm:flex block justify-end items-center cursor-pointer hover:scale-105">
+                <li key={item.id} className="mb-4 md:flex block justify-end items-center cursor-pointer hover:scale-105">
                     {item.hotIcon && (
-                    <Image className="hidden sm:block w-1/5 -mr-3" src={item.hotIcon} alt="Hot Icon" />
+                    <Image className="hidden md:block w-1/5 -mr-3" src={item.hotIcon} alt="Hot Icon" />
                     )}
-                    <Image className='sm:w-4/5 w-full' src={item.image} alt={item.title} />
+                    <Image className='md:w-4/5 w-full' src={item.image} alt={item.title} />
                 </li>
                 ))}
             </ul>
-            </div>
-          <div className="sm:w-7/12 sm:block hidden w-full max-w-screen-md sm:pl-5 pl-0">
+            </div> */}
+          <div className="md:w-7/12 w-full max-w-screen-md md:pl-5 pl-0">
             <div className="bg-white rounded-3xl w-full py-5 px-10">
                 <div className="flex justify-between items-center">
                     <div className="">

@@ -41,7 +41,7 @@ const CountDown = () => {
 
     
   const formatTime = ({ value, unit }: TimeFormat) => (
-  <span className="text-titlemainSpaColor bg-white py-4 rounded-md px-4 text-center font-bold flex flex-col sm:w-28 w-24 sm:text-5xl text-lg">
+  <span className="text-titlemainSpaColor bg-white py-4 rounded-md px-4 text-center font-bold flex flex-col md:w-28 w-24 md:text-5xl text-lg">
       {value} <strong className='uppercase opacity-70 text-xl'>{value === 1 ? unit : unit}</strong>
   </span>
   );
@@ -50,7 +50,7 @@ const CountDown = () => {
 
   return (
     <>
-      <div className="bg-boxtimeSpaColor w-full py-7 relative sm:block hidden sm:px-0 px-3">
+      <div className="bg-boxtimeSpaColor w-full py-7 relative md:block hidden md:px-0 px-3">
         <div className="border rounded-3xl border-white w-full h-[240px] icon-cosmetic max-w-1440 m-auto">
           <div className="-translate-y-24 w-6/12 m-auto">
             <div className="w-full border border-white rounded-3xl py-4 px-16 flex justify-center gap-5 m-2 bg-gradientCosmetic">
@@ -69,7 +69,7 @@ const CountDown = () => {
           </div>
         </div>
       </div>
-      <div className="bg-boxtimeSpaColor w-full py-7 relative sm:hidden block">
+      <div className="bg-boxtimeSpaColor w-full py-7 relative md:hidden block">
       <div className="border rounded-3xl border-white w-full m-auto">
       <div className="w-full  justify-center gap-5 -mt-8">
          <div className="mt-16">

@@ -54,7 +54,7 @@ const SkinTreatmentTechnologiesMobile = () => {
       <div className="gap-5 mt-5 max-w-[924px] m-auto">
         {technologiesItem.map((item, index) => (
           <div key={index} className='m-auto py-5'>
-            <div className="relative flex">
+            <div className="relative flex justify-center">
               <Image
                 src={item.link}
                 alt={item.alt}
@@ -62,7 +62,7 @@ const SkinTreatmentTechnologiesMobile = () => {
                 width={833}
                 height={567}
               />
-              <div className="px-16 text-center bottom-2 absolute">
+              <div className="px-16 text-center bottom-12 py-7 absolute w-[400px] h-72 bg-boxImg shadow-cus">
                 <p className="bg-gradientText text-cosmetic mt-2 font-bold text-xl">{item.title}</p>
                 <p className='text-white mt-2 text-sm text-justify'>{item.description}</p>
                 <EffectButton href={'/'} title="TÌM HIỂU THÊM" />

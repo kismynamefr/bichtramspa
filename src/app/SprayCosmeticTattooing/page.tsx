@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import Image from 'next/image';
-import BgCosmeticMb from '~/assets/SprayCosmeticTattooing/banner-cosmetic-mobile.png'
+import BgCosmeticMb from '~/assets/Banner/banner-mobile03.png'
 import CountDown from '~/components/CountDown';
 import QuestionSprayCosmeticTattooing from '~/components/Question/QusestionSprayCosmeticTattooing';
 import WhatIsCosmeticTattooing from '~/components/Pages/SprayCosmeticTattooing/WhatIsCosmeticTattooing';

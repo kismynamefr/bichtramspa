@@ -69,19 +69,19 @@ const MissKOL: React.FunctionComponent = () => {
     const [activeMiss, setActiveMiss] = useState(1);
   
     return (
-      <div className='w-full z-20 sm:-mt-64 -mt-7'>
+      <div className='w-full z-20 md:-mt-64 -mt-7 pb-28'>
         <div className='bg-kol'>
-            <div className="sm:w-1300 w-full mx-auto hidden sm:block">
-                <div className="sm:flex block justify-center items-center">
+            <div className="md:w-1300 w-full mx-auto hidden md:block">
+                <div className="md:flex block justify-center items-center">
                     <div className="">
                         <Image src={kolData[activeMiss - 1].missImage} alt='Miss KOL'/>
                     </div>
                     <div className='flex flex-wrap w-734 items-center mt-56'>
-                        <div className="text-white w-734 h-64 hidden sm:block">
+                        <div className="text-white w-734 h-64 hidden md:block">
                             <h2 className='font-bold text-3xl'>{kolData[activeMiss - 1].title}</h2>
                             <p className='text-lg pt-4 text-justify'>{kolData[activeMiss - 1].content}</p>
                         </div>
-                        <div className="flex justify-center w-734 cursor-pointer sm:mt-0 -mt-56">
+                        <div className="flex justify-center w-734 cursor-pointer md:mt-0 -mt-56">
                             {avatarsData.map((avatar, index) => (
                             <Image
                                 key={index}
@@ -96,7 +96,7 @@ const MissKOL: React.FunctionComponent = () => {
                     
                 </div>
             </div>
-            <div className="sm:w-1300 w-full mx-auto block sm:hidden">
+            <div className="md:w-1300 w-full mx-auto block md:hidden">
             <Carousel
             transition={{ duration: 1 }}
             autoplay={false}
@@ -134,7 +134,7 @@ const MissKOL: React.FunctionComponent = () => {
             >
             {kolData.map((item) => (
                 <div key={item.id} className="">
-                    <div className="sm:flex block justify-center items-center mt-9">
+                    <div className="md:flex block justify-center items-center mt-9">
                         <div className='flex flex-wrap items-center h-52'>
                             <div className="text-white text-center">
                                 <h2 className='font-bold text-3xl'>{item.title}</h2>

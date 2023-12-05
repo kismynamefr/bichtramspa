@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import Image from 'next/image';
-import BgReduceBodyFatMb from '~/assets/ReduceBodyFat/bg-ReduceBodyFat-mb-1.png'
+import BgReduceBodyFatMb from '~/assets/Banner/banner-mobile02.png'
 import CountDown from '~/components/CountDown';
 import ShouldChoose from '~/components/Pages/ReduceBodyFat/ShouldChoose';
 import StatusObesity from '~/components/Pages/ReduceBodyFat/StatusObesity';
@@ -22,9 +22,9 @@ const ReduceBodyFat = () => {
       <StatusObesity/>
       <Service/>
       <SlimmingTechnology/>
-      <Advantage/>
+      {/* <Advantage/> */}
       <FatLossProcess/>
-      <CustomerPicture/>
+      {/* <CustomerPicture/> */}
       <ShouldChoose/>
     </>
   );

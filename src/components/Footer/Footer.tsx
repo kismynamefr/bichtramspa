@@ -8,8 +8,8 @@ import IconClock from '~/assets/Footer/clock.png'
 
 const Footer: React.FunctionComponent = () => {
   return (
-    <footer className='relative w-full sm:h-auto h-full'>
-      <div className="sm:py-8 py-0 bg-boxtimeSpaColor sm:flex block items-center relative h-full w-full">
+    <footer className='relative w-full md:h-auto h-full'>
+      <div className="md:py-8 py-0 bg-boxtimeSpaColor md:flex block items-center relative h-full w-full">
         <div className="relative w-full z-10">
           <div className="max-w-1440 flex w-full flex-row flex-wrap justify-center items-center m-auto">
             <div className="relative w-full m-0 pt-0 pb-5 px-3 large-3 medium-3 ">
@@ -25,7 +25,7 @@ const Footer: React.FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="relative w-full m-0 pt-0 pb-5 px-3 large-3 medium-3 sm:ml-32 ml-0">
+            <div className="relative w-full m-0 pt-0 pb-5 px-3 large-3 medium-3 md:ml-32 ml-0">
               <div className="ml-auto mr-0 text-left text-white">
                 <div className=" relative m-0 pb-4">
                   <p className='text-base font-bold pb-2'>THÔNG TIN LIÊN HỆ</p>
@@ -43,20 +43,20 @@ const Footer: React.FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="relative w-full m-0 pt-0 px-3 large-3 medium-3 pb-16 sm:pb-5">
+            <div className="relative w-full m-0 pt-0 px-3 large-3 medium-3 pb-16 md:pb-5">
               <div className="ml-auto mr-0 text-left text-white">
                 <div className=" relative m-0">
-                  <p className='text-base font-bold items-center sm:flex block '>CHÍNH SÁCH</p>
-                  <div className="sm:flex block gap-10">
+                  <p className='text-base font-bold items-center md:flex block '>CHÍNH SÁCH</p>
+                  <div className="md:flex block gap-10">
                     <div className="w-284">
-                      <p className='sm:text-xs text-sm py-1'>Quy định chung</p>
-                      <p className='sm:text-xs text-sm py-1'>Bảo mật và thông tin</p>
-                      <p className='sm:text-xs text-sm py-1'>Hệ thống chi nhánh</p>
+                      <p className='md:text-xs text-sm py-1'>Quy định chung</p>
+                      <p className='md:text-xs text-sm py-1'>Bảo mật và thông tin</p>
+                      <p className='md:text-xs text-sm py-1'>Hệ thống chi nhánh</p>
                     </div>
                     <div className="">
-                      <p className='sm:text-xs text-sm py-1'>Tuyển dụng</p>
-                      <p className='sm:text-xs text-sm py-1'>Nhận tư vấn miễn phí</p>
-                      <p className='sm:text-xs text-sm py-1'>Tiếp nhận ý kiến phản ánh</p>
+                      <p className='md:text-xs text-sm py-1'>Tuyển dụng</p>
+                      <p className='md:text-xs text-sm py-1'>Nhận tư vấn miễn phí</p>
+                      <p className='md:text-xs text-sm py-1'>Tiếp nhận ý kiến phản ánh</p>
                     </div>
                   </div>
                 </div>

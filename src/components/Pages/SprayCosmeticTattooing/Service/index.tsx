@@ -22,13 +22,13 @@ import Item16 from '~/assets/SprayCosmeticTattooing/item-16.png'
 
 const Service = () => {
   return (
-    <div className="bg-boxtimeSpaColor bg-rou w-full">
+    <div className="bg-boxtimeSpaColor w-full">
         <div className="w-full max-w-[1060px] m-auto text-center pt-20">
-          <h1 className='bg-gradientText text-cosmetic font-bold sm:text-6xl text-4xl pb-4'>CÁC DỊCH VỤ PHUN XĂM THẨM MỸ</h1>
-          <h2 className='text-white sm:text-4xl text-3xl font-medium pb-4'>TẠI THẨM MỸ QUỐC TẾ BÍCH TRÂM</h2>
+          <h1 className='bg-gradientText text-cosmetic font-bold lg:text-6xl text-4xl pb-4'>CÁC DỊCH VỤ PHUN XĂM THẨM MỸ</h1>
+          <h2 className='text-white lg:text-4xl text-3xl font-medium pb-4'>TẠI THẨM MỸ QUỐC TẾ BÍCH TRÂM</h2>
         </div>
-        <div className="sm:block hidden">
-          <div className="bg-boxImg max-w-[1440px] w-full m-auto flex flex-row items-center">
+        <div className="lg:flex hidden flex-col gap-20 mb-10 ">
+          <div className="bg-boxImg h-[440px] shadow-cus max-w-[1440px] w-full m-auto flex flex-row items-center">
             <div className="pl-24 w-1/3 boxTitle">
               <div className='text-white text-5xl font-medium pb-4'>PHUN CHÂN MÀY</div>
               <EffectButton href={"/"} title='XEM CHI TIẾT'/>
@@ -39,7 +39,7 @@ const Service = () => {
               ))}
             </div>
           </div>
-          <div className="bg-boxImg max-w-[1440px] w-full m-auto flex flex-row items-center">
+          <div className="bg-boxImg h-[440px] shadow-cus max-w-[1440px] w-full m-auto flex flex-row items-center">
             <div className="flex w-2/3">
               {[Item5, Item6, Item7, Item8].map((item, index) => (
                 <Image key={index} src={item} alt='Item Spa' className='itemCosmetic'/>
@@ -50,7 +50,7 @@ const Service = () => {
               <EffectButton href={"/"} title='XEM CHI TIẾT'/>
             </div>
           </div>
-          <div className="bg-boxImg max-w-[1440px] w-full m-auto flex flex-row items-center">
+          <div className="bg-boxImg h-[440px] shadow-cus max-w-[1440px] w-full m-auto flex flex-row items-center">
             <div className="pl-24 w-1/3 boxTitle">
               <h2 className='text-white text-5xl font-medium pb-4'>PHUN & CẤY MÔI</h2>
               <EffectButton href={"/"} title='XEM CHI TIẾT'/>
@@ -61,7 +61,7 @@ const Service = () => {
             ))}
             </div>
           </div>
-          <div className="bg-boxImg max-w-[1440px] w-full m-auto flex flex-row items-center">
+          <div className="bg-boxImg h-[440px] shadow-cus max-w-[1440px] w-full m-auto flex flex-row items-center">
             <div className="flex w-2/3">
               {[Item13, Item14, Item15, Item16].map((item, index) => (
                 <Image key={index} src={item} alt='Item Spa' className='itemCosmetic'/>

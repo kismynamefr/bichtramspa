@@ -43,7 +43,7 @@ const risksItem: Array<RisksItem> = [
 
 const Risks = () => {
   return (
-    <div className="bg-WhiteBath-2 w-full">
+    <div className="bg-boxtimeSpaColor w-full">
       <div className="sm:flex block w-full max-w-[1400px] m-auto justify-center items-center py-10">
         <div className="sm:w-1/3 w-full  sm:text-start text-center sm:py-0 py-5">
           <h2 className='bg-gradientText font-bold text-3xl text-cosmetic '>NHỮNG RỦI RO</h2>

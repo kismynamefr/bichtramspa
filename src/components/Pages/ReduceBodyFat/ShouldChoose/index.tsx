@@ -1,5 +1,7 @@
 'use client'
 import React from 'react'
+import MissGrand from '~/assets/KOL/miss-Thuytien.png'
+import Image from 'next/image';
 
 interface BoxBlock {
     titleLine1: string;
@@ -37,10 +39,12 @@ const boxBlocks: BoxBlock[] = [
     },
 ];
 
+
 const ShouldChoose = () => {
   return (
-    <div className="bg-ReduceBodyFat-5 w-full h-screen sm:block hidden">
+    <div className="bg-boxtimeSpaColor w-full h-screen sm:block hidden">
       <div className="max-w-[1070px] relative m-auto flex flex-col justify-center items-center h-screen">
+      <Image src={MissGrand} alt="MissGrand" width={460} className='absolute -mt-10' />
         {Array.from({ length: Math.ceil(boxBlocks.length / 2) }).map((_, rowIndex) => (
           <div key={rowIndex} className="sm:flex block w-full justify-between sm:py-16 py-0">
             {boxBlocks.slice(rowIndex * 2, rowIndex * 2 + 2).map((block, index) => (

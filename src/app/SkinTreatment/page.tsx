@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import Image from 'next/image';
-import BgSkinTreatmentMb from '~/assets/SkinTreatment/bg-SkinTreatment-1-mb.png'
+import BgSkinTreatmentMb from '~/assets/Banner/banner-mobile01.png'
 import CountDown from '~/components/CountDown';
 import OutstandingServices from '~/components/Pages/SkinTreatment/OutstandingServices';
 import SkinTreatmentTechnologies from '~/components/Pages/SkinTreatment/SkinTreatmentTechnologies';
@@ -21,7 +21,7 @@ const SkinTreatment = () => {
       <SkinTreatmentTechnologies/>
       <CustomerPictures/>
       {/* <CustomerComments/> */}
-      <Standard/>
+      {/* <Standard/> */}
       <Advantage/>
     </>
   );

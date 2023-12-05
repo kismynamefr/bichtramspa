@@ -40,18 +40,18 @@ const tagData = [
       id: 1,
       tagID: "Phun xăm thẩm mỹ",
       images: [
-        { src: Pic1, alt: "Phun xăm thẩm mỹ", title: "Chị Hạnh Uyên (26 tuổi)", description: "Phun môi collagen trị thâm xỉn" },
-        { src: Pic2, alt: "Phun xăm thẩm mỹ", title: "Chị Ánh Ngân (30 tuổi)", description: "Điều trị sẹo rỗ" },
-        { src: Pic3, alt: "Phun xăm thẩm mỹ", title: "Chị Nguyệt Đan (28 tuổi)", description: "Phun xăm mày môi khắc phục môi thâm mày nhạt" },
+        { src: Pic1, alt: "Phun xăm thẩm mỹ", title: "Chị Hồ Nguyệt (28 tuổi)", description: "Phun môi collagen trị thâm môi" },
+        { src: Pic2, alt: "Phun xăm thẩm mỹ", title: "Chị Thùy Linh (26 tuổi)", description: "Điều trị sẹo rỗ" },
+        { src: Pic3, alt: "Phun xăm thẩm mỹ", title: "Chị Lý Cẩm Uyên (24 tuổi)", description: "Phun xăm mày môi khắc phục môi thâm mày nhạt" },
       ],
     },
     {
         id: 2,
         tagID: "Điều trị da",
         images: [
-          { src: Pic4, alt: "Điều trị da", title: "Chị Ngọc Hân (31 tuổi)", description: "Điều trị nám chân sâu" },
-          { src: Pic5, alt: "Điều trị da", title: "Chị Ánh Ngân (27 tuổi)", description: "Điều trị sẹo rỗ" },
-          { src: Pic6, alt: "Điều trị da", title: "Anh Trọng Hưng (38 tuổi)", description: "Điều trị sẹo lồi" },
+          { src: Pic4, alt: "Điều trị da", title: "Chị Ngọc Hằng (34 tuổi)", description: "Điều trị nám chân sâu" },
+          { src: Pic5, alt: "Điều trị da", title: "Chị Ánh Kim (27 tuổi)", description: "Điều trị sẹo rỗ" },
+          { src: Pic6, alt: "Điều trị da", title: "Anh Trọng Vũ Tài (38 tuổi)", description: "Điều trị sẹo lồi" },
         ],
     },
     {
@@ -94,12 +94,12 @@ const PicturesCustomers: React.FunctionComponent<any> = () => {
     return (
         <div className="mt-24">
             <div className="flex justify-center items-center p-10">
-                <h1 className='text-white font-bold text-2xl text-center'>HÌNH ẢNH THỰC TẾ CỦA KHÁCH HÀNG</h1>
+                <h1 className='text-white font-bold text-2xl text-center'>HÌNH ẢNH CỦA KHÁCH HÀNG</h1>
             </div>
-            <div className="w-full sm:h-[550px] h-auto">
-                <div className='flex flex-row flex-wrap justify-center sm:w-1300 w-full mx-auto'>
-                    <div className="sm:w-5/12 w-full sm:pb-0 pb-5">
-                        <ul className='sm:w-[409px] w-full sm:ml-9 ml-0 sm:block flex flex-row flex-wrap justify-between sm:px-0 px-6'>
+            <div className="w-full md:h-[550px] h-auto">
+                <div className='flex flex-row flex-wrap justify-center md:w-1300 w-full mx-auto'>
+                    <div className="md:w-5/12 w-full md:pb-0 pb-5">
+                        <ul className='md:w-[409px] w-full md:ml-9 ml-0 md:block flex flex-row flex-wrap justify-between md:px-0 px-6'>
                         {tagData.map((tag) => (
                                 <li
                                     key={tag.id}
@@ -107,12 +107,12 @@ const PicturesCustomers: React.FunctionComponent<any> = () => {
                                     ${selectedTag?.id === tag.id ? ' text-mainSpaColor bg-white' : 'text-white bg-li'}`}
                                     onClick={() => handleTagClick(tag)}
                                 >
-                                        {tag.tagID} <FiChevronRight className='sm:block hidden'/>
+                                        {tag.tagID} <FiChevronRight className='md:block hidden'/>
                                 </li>
                             ))}
                         </ul>
                     </div>
-                    <div className="sm:w-7/12 w-full sm:h-[480px] h-[320px] sm:px-0 px-5">
+                    <div className="md:w-7/12 w-full md:h-[480px] h-[320px] md:px-0 px-5">
                         {selectedTag && (
                             <Carousel transition={{ duration: 1 }} autoplay={true} loop={true} className="max-h-[900px] overflow-hidden"
                                 prevArrow={({ handlePrev }) => (
@@ -121,9 +121,9 @@ const PicturesCustomers: React.FunctionComponent<any> = () => {
                                         color="white"
                                         size="lg"
                                         onClick={handlePrev}
-                                        className="!absolute top-2/4 -translate-y-2/4 left-4 sm:-mt-24 -mt-[72px] -ml-cus btn-arrow sm:w-auto sm:h-auto !w-8 !h-8"
+                                        className="!absolute top-2/4 -translate-y-2/4 left-4 md:-mt-24 -mt-[72px] -ml-cus btn-arrow md:w-auto md:h-auto !w-8 !h-8"
                                     >
-                                        <ArrowLeftIcon strokeWidth={2} className="sm:w-6 sm:h-6 w-4 h-4" />
+                                        <ArrowLeftIcon strokeWidth={2} className="md:w-6 md:h-6 w-4 h-4" />
                                     </IconButton>
                                 )}
                                 nextArrow={({ handleNext }) => (
@@ -132,9 +132,9 @@ const PicturesCustomers: React.FunctionComponent<any> = () => {
                                         color="white"
                                         size="lg"
                                         onClick={handleNext}
-                                        className="!absolute top-2/4 -translate-y-2/4 !right-4  sm:-mt-24 -mt-[72px] sm:mr-20 -mr-[10px] btn-arrow sm:w-auto sm:h-auto !w-8 !h-8"
+                                        className="!absolute top-2/4 -translate-y-2/4 !right-4  md:-mt-24 -mt-[72px] md:mr-20 -mr-[10px] btn-arrow md:w-auto md:h-auto !w-8 !h-8"
                                     >
-                                        <ArrowRightIcon strokeWidth={2} className="sm:w-6 sm:h-6 w-4 h-4" />
+                                        <ArrowRightIcon strokeWidth={2} className="md:w-6 md:h-6 w-4 h-4" />
                                     </IconButton>
                                 )}
                                 navigation={({ setActiveIndex, activeIndex, length }) => (
@@ -152,7 +152,7 @@ const PicturesCustomers: React.FunctionComponent<any> = () => {
                                 )}>
                                 {selectedTag.images.map((image) => (
                                     <div key={image.alt} className="carousel-item">
-                                        <Image src={image.src} alt={image.alt} width={670} height={310} className="rounded-2xl" />
+                                        <Image src={image.src} alt={image.alt} width={670} height={310} className="rounded-2xl md:w-[670px] w-[600px]" />
                                         <div className="text-white mt-4">
                                             <h2 className="font-bold uppercase text-lg">{image.title}</h2>
                                             <p className="text-base">{image.description}</p>
@@ -161,7 +161,7 @@ const PicturesCustomers: React.FunctionComponent<any> = () => {
                                 ))}
                             </Carousel>
                         )}
-                        <div className="text-center mb-10 btn-see-pic absolute ml-custom sm:block hidden">
+                        <div className="text-center mb-10 btn-see-pic absolute ml-custom md:block hidden">
                             <Link className='custom-btn-see text-white cursor-pointer' href={"/"}>XEM THÊM</Link>
                         </div>
                     </div>
